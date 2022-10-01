@@ -22,6 +22,10 @@ A ideia se baseia em pegar exercicios de faculdade, desde o mais simples até o 
 Na lista abaixo estarão todos os exercicios que iremos aceitar nos nossos pull request. 
 
 - [0 - Hello World (não irá contar)](./challenges/0-hello-world/readme.md)
+- [1 - Produto Simples](./challenges/1-produto-simples/readme.md)
+- [2 - Idade em Dias](./challenges/2-idade-em-dias/readme.md)
+- [3 - Tipos de Triângulo](./challenges/3-tipos-de-triangulo/readme.md)
+- [4 - Fizz Buzz](./challenges/4-fizz-buzz/readme.md)
 
 Caso você queira dar sugestões de desafios, contate algum moderador no [Discord da He4rt](https://discord.gg/he4rt).
   
@@ -63,7 +67,7 @@ Como o nosso objetivo será dar a melhor experiência possível para o participa
 - Erros de digitação/gramaticais e nomes de variáveis sem um contexto, tais como [a,b,c,x,y,z] deverão ser pedidas alterações;
 - Isolamento de funções quando necessário também poderá ser requisitado.
 
-Qualquer dúvida, poderá ir o nosso [banco de dúvidas](https://github.com/he4rtlabs/he4rtoberfest-2020/issues/1) e perguntar.
+Qualquer dúvida, poderá ir o nosso [banco de dúvidas](https://github.com/he4rt/he4rtoberfest-2022/issues/1) e perguntar.
 
 ## Atualizando o seu fork
 
@@ -75,7 +79,7 @@ git checkout master
 # 2. Checar se sua cópia local tem o link do original
 git remote -v
 # 3. Se não, adicione o link do original
-git remote add upstream git@github.com:he4rtlabs/he4rtoberfest-2020.git
+git remote add upstream git@github.com:he4rt/he4rtoberfest-2022.git
 # 4. Confirme se o link foi adicionado
 git remote -v
 # 5. Agora você pode fazer o fetch com o repo original, assumindo que o nome do link é 'upstream'
