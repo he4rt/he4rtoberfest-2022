@@ -27,7 +27,8 @@ Na lista abaixo estarão todos os exercicios que iremos aceitar nos nossos pull 
 - [3 - Tipos de Triângulo](./challenges/3-tipos-de-triangulo/readme.md)
 - [4 - Fizz Buzz](./challenges/4-fizz-buzz/readme.md)
 - [5 - Cobaias](./challenges/5-cobaias/readme.md)
-- [6 - Jokenpo Nerd](./challenges/6-jokenpo-nerd/readme.md)
+- [6 - Converter Segundos](./challenges/6-converter-segundos/readme.md)
+- [7 - Jokenpo Nerd](./challenges/7-jokenpo-nerd/readme.md)
 
 Caso você queira dar sugestões de desafios, contate algum moderador no [Discord da He4rt](https://discord.gg/he4rt).
   
