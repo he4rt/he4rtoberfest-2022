@@ -22,14 +22,6 @@ A ideia se baseia em pegar exercicios de faculdade, desde o mais simples até o 
 Na lista abaixo estarão todos os exercicios que iremos aceitar nos nossos pull request. 
 
 - [0 - Hello World (não irá contar)](./challenges/0-hello-world/readme.md)
-- [1 - Média de alunos](./challenges/1-media-alunos/readme.md)
-- [2 - Tabuada](./challenges/2-tabuada/readme.md)
-- [3 - Área de um trapézio](./challenges/3-area-trapezio/readme.md)
-- [4 - Cifra de César](./challenges/4-cifra-de-cesar/readme.md)
-- [5 - Frequência das Letras](./challenges/5-frequencia-das-letras/readme.md)
-- [6 - Abracadabra](./challenges/6-abracadabra/readme.md)
-- [7 - Validador de Senhas](./challenges/7-valida-senha/readme.md)
-- [8 - Fibonacci Fácil](./challenges/8-fibonacci/readme.md)
 
 Caso você queira dar sugestões de desafios, contate algum moderador no [Discord da He4rt](https://discord.gg/he4rt).
   
