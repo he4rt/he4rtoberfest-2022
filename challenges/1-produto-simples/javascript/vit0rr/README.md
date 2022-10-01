@@ -8,7 +8,7 @@
 
 **Empresa:** - Bem.te.vi
 
-**Twitter**: [https://twitter.com/danielhe4rt (opcional)](https://twitter.com/vit0rrk)
+**Twitter**: https://twitter.com/vit0rrk
 
 **Dificuldade de Resolução:** - Baixa -
 
