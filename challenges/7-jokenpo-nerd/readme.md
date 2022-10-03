@@ -1,6 +1,6 @@
-# Desafio #3
+# Desafio #7
 
-**Nome:** Tipos de Triângulo
+**Nome:** Jokenpo Nerd
 
 **Descrição**: 
 
