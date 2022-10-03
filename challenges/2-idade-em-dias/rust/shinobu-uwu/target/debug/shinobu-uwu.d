@@ -1,1 +1,0 @@
-/home/shinobu/Projects/Rust/he4rtoberfest-2022/challenges/2-idade-em-dias/rust/shinobu-uwu/target/debug/shinobu-uwu: /home/shinobu/Projects/Rust/he4rtoberfest-2022/challenges/2-idade-em-dias/rust/shinobu-uwu/src/main.rs
