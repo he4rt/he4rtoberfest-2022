@@ -1,6 +1,6 @@
 # Submissão de Exercicio
 
-**Exercicio:** 1 - Produto Simples
+**Exercicio:** 2 - Idade em dias
 
 **Nickname:** Shinobu
 
