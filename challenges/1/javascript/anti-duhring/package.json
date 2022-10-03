@@ -1,0 +1,8 @@
+{
+    "name": "desafio-0-antiduhring",
+    "version": "1.0.0",
+    "author": "Anti-Duhring <mateus.limavn@gmail.com>",
+    "scripts": {
+        "challenge": "node index.js"
+     }
+  }
