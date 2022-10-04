@@ -18,5 +18,13 @@
 
 Use o comando abaixo: 
 ```bash
-node ProdutoSimples.js
+node ProdutoSimples.js numero1 numero2
+```
+Exemplo: 
+```bash
+node ProdutoSimples.js 10 3
+```
+Output: 
+```bash
+  Produto: 30
 ```
