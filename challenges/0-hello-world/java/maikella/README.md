@@ -1,6 +1,6 @@
 ﻿# Submissão de Exercício
 
-**Exercicio:** 0 - Hello World
+**Exercicio:** 0 - ViciadoEmSerFiel
 
 **Nickname:** maikella
 
@@ -14,9 +14,9 @@
 
 Use o comando abaixo: 
 ```bash
-javac HelloWorld.java 
+javac ViciadoEmSerFiel.java 
 ```
 Em seguida, use o comando abaixo para executar o arquivo compilado:
 ```
-java HelloWorld
+java ViciadoEmSerFiel
 ```
