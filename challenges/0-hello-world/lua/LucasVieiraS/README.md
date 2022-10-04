@@ -4,7 +4,7 @@
 
 **Nickname:** LucasVieiraS
 
-**Nível Técnico:** - Estudante/Estagiário/Junior/Pleno/Senior -
+**Nível Técnico:** - Estudante
 
 **Empresa:** - Nenhuma
 
