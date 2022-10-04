@@ -32,3 +32,8 @@ E executar com:
 ```bash
  $ java -cp target/produto.jar clojure.main -m core
  ```
+ou:
+E executar com:
+```bash
+ $ java -cp target/produto.jar clojure.main -m core 10 20
+ ```
