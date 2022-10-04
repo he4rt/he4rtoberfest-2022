@@ -2,9 +2,9 @@
 
 **Exercicio:** 0 - Hello World
 
-**Nickname:** citadin
+**Nickname:** rodrigocitadin
 
-**Nível Técnico:** - Junior -
+**Nível Técnico:** - Estudante -
 
 **Empresa:** - Estou em busca de uma! -
 
