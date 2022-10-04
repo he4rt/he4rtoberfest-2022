@@ -4,7 +4,7 @@
 
 **Nickname:** citadin
 
-**Nível Técnico:** - Junior -
+**Nível Técnico:** - Estudante -
 
 **Empresa:** - Estou em busca de uma! -
 
