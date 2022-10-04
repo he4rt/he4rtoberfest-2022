@@ -21,29 +21,16 @@ struct Result {
 
 impl Result {
     fn from(mut days: u64) -> Self {
-        let mut years = 0;
-        let mut months = 0;
+        let mut years = days / 365;
+        days %= 365;
 
-        loop {
-            if days >= 365 {
-                days -= 365;
-                years += 1;
+        let mut months = days/30;
+        days %= 30;
 
-                continue;
-            }
-
-            if days >= 30 {
-                days -= 30;
-                months += 1;
-
-                continue;
-            }
-
-            return Self {
-                years,
-                months,
-                days: days as u8
-            }
+        Self {
+            years: years as u16,
+            months: months as u8,
+            days: days as u8
         }
     }
 }
