@@ -1,6 +1,6 @@
 # Submissão de Exercicio
 
-**Exercicio:** 0 - Produto Simples
+**Exercicio:** 1 - Produto Simples
 
 **Nickname:** naygo
 
