@@ -1,6 +1,6 @@
 # Submissão de Exercicio
 
-**Exercicio:** 1 - Produto Simples
+**Exercicio:** 0 - Hello World
 
 **Nickname:** MatheusFC2(omatheusfc)
 
