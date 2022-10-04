@@ -1,6 +1,10 @@
 # Submissão de Exercicio
 
+<<<<<<< HEAD
 **Exercicio:** 0 - Hello World
+=======
+**Exercicio:** 0 Hello world
+>>>>>>> 763d46c0695c4784adbfd79c6b3b805e70f82534
 
 **Nickname:** MatheusFC2(omatheusfc)
 
