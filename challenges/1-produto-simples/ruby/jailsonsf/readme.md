@@ -1,6 +1,6 @@
 # Submissão de Exercicio
 
-**Exercicio:** 0 - Hello World
+**Exercicio:** 1 - Produto Simples
 
 **Nickname:** jailsonsf
 
@@ -12,9 +12,9 @@
 
 **Dificuldade de Resolução:** - Baixa -
 
-**Como rodar o desafio**: 
+**Como rodar o desafio**:  
 
 Use o comando abaixo: 
 ```bash
-ruby desafio-0.rb
+ruby desafio-1.rb 10 3
 ```
