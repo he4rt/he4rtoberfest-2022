@@ -15,5 +15,5 @@
 Use o comando abaixo:
 
 ```bash
-python tipos-de-triangulo.php
+python tipos-de-triangulo.py
 ```
