@@ -2,7 +2,7 @@
 <!-- Title -->
 
 <p align="center">
-  <h2 align="center">He4rtoberfest 2022 - INICIO APÓS A REUNIÃO SEMANAL</h2>
+  <h2 align="center">He4rtoberfest 2022</h2>
 </p>
     
  <!-- ABOUT THE PROJECT -->
@@ -70,7 +70,7 @@ Como o nosso objetivo será dar a melhor experiência possível para o participa
 - Erros de digitação/gramaticais e nomes de variáveis sem um contexto, tais como [a,b,c,x,y,z] deverão ser pedidas alterações;
 - Isolamento de funções quando necessário também poderá ser requisitado.
 
-Qualquer dúvida, poderá ir o nosso [banco de dúvidas](https://github.com/he4rt/he4rtoberfest-2022/issues/1) e perguntar.
+Qualquer dúvida, poderá ir o nosso [banco de dúvidas](https://github.com/he4rt/he4rtoberfest-2022/issues) e perguntar.
 
 ## Atualizando o seu fork
 
