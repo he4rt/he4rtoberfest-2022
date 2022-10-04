@@ -2,7 +2,7 @@
 
 **Exercicio:** 1 - Produto simples
 
-**Nickname:** citadin
+**Nickname:** rodrigocitadin
 
 **Nível Técnico:** - Estudante -
 
