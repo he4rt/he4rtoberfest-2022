@@ -12,7 +12,7 @@
 
 **Dificuldade de Resolução:** - Baixa -
 
-**Comentários:** Nesse desafio eu achei que ... (Opcional)
+**Comentários:** Meu primeiro PR, estou muito feliz!
 
 **Como rodar o desafio**: 
 
