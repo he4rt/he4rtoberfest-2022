@@ -2,13 +2,13 @@
 
 **Exercicio:** 0 - Hello World
 
-**Nickname:** michlwene
+**Nickname:** michelwene
 
 **Nível Técnico:** - Junior/Pleno -
 
 **Empresa:** - Supliu Tecnologia -
 
-**Twitter**: https://twitter.com/danielhe4rt (opcional)
+**Twitter**: https://twitter.com/MichelWene
 
 **Dificuldade de Resolução:** - Baixa -
 
