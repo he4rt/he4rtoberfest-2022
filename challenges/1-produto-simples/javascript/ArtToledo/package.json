@@ -1,0 +1,15 @@
+{
+  "name": "arttoledo",
+  "version": "1.0.0",
+  "description": "**Exercicio:** 0 - Hello World",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
