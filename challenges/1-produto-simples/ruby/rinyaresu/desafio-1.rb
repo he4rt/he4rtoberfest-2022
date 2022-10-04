@@ -1,6 +1,7 @@
 class Soma
   def initialize
-    @PROD = var * var2    puts "PROD = #{@PROD}"
+    @PROD = var * var2
+    puts "PROD = #{@PROD}"
   end
 
   def var
