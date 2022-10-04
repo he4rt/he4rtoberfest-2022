@@ -2,7 +2,7 @@
 <!-- Title -->
 
 <p align="center">
-  <h2 align="center">He4rtoberfest 2022</h2>
+  <h2 align="center">He4rtoberfest 2022 - INICIO APÓS A REUNIÃO SEMANAL</h2>
 </p>
     
  <!-- ABOUT THE PROJECT -->
@@ -77,8 +77,8 @@ Qualquer dúvida, poderá ir o nosso [banco de dúvidas](https://github.com/he4r
 Caso esse repositório seja atualizado com novos exercícios você precisa atualizar seu fork
 
 ```bash
-# 1. Mudar para a branch master
-git checkout master
+# 1. Mudar para a branch main
+git checkout main
 # 2. Checar se sua cópia local tem o link do original
 git remote -v
 # 3. Se não, adicione o link do original
@@ -87,10 +87,10 @@ git remote add upstream git@github.com:he4rt/he4rtoberfest-2022.git
 git remote -v
 # 5. Agora você pode fazer o fetch com o repo original, assumindo que o nome do link é 'upstream'
 git fetch upstream
-# 6. Fazer merge dos updates para sua branch master
-git merge upstream/master master
+# 6. Fazer merge dos updates para sua branch main
+git merge upstream/main main 
 # 7. Realizar o push para seu fork com as novas mudanças 
-git push origin master
+git push origin main
 ```
 
 ## Materiais complementares
