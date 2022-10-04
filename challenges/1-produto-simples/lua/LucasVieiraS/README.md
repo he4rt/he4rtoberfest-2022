@@ -15,6 +15,8 @@
 Faça download por: http://www.lua.org/download.html
 ou, caso prefira: https://luabinaries.sourceforge.net/download.html
 
+Usaremos a biblioteca [**argparse**](https://github.com/mpeterv/argparse) para facilitar o uso de command line arguments, logo, será necessário que o instale.
+
 Use o comando abaixo: 
 ```bash
 C:\caminho\para\lua.exe helloworld.lua
