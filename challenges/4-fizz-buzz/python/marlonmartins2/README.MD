@@ -1,6 +1,6 @@
 # Submissão de Exercicio
 
-**Exercicio:** 0 - Hello World
+**Exercicio:** 4 - Fizz Buzz
 
 **Nickname:** marlonmartins2
 
@@ -9,12 +9,12 @@
 **Empresa:** - Nenhuma -
 
 
-**Dificuldade de Resolução:** - Baixa -
+**Dificuldade de Resolução:** - Media -
 
 
 **Como rodar o desafio**: 
 
 Use o comando abaixo: 
 ```bash
-python3 helloworld.py
+python3 fizz_buzz.py
 ```
