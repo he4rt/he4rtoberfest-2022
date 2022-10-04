@@ -1,4 +1,4 @@
-const myArgs = process.argv.slice(2);
+const myArguments = process.argv.slice(2);
 
 const ageInDays = (age) => {
   const perYear = Math.floor(age / 365);
@@ -9,4 +9,4 @@ ${perMonth} mes(es)
 ${perDay} dia(s)`;
 };
 
-console.log(ageInDays(myArgs[0]));
+console.log(ageInDays(myArguments[0]));
