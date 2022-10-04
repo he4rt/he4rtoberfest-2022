@@ -1,19 +1,19 @@
 (ns core)
 
-(defn read-number!
-  "Read a number from console"
+(defn ler-numero!
+  "Lê um numero do console."
   []
   (print "Digite um número: ")
   (flush)
   (Integer/parseInt (read-line)))
 
 (defn -main
-  "Main function"
+  "Função Main - entrada da aplicação"
   [& args]
 
   (if (= args nil)
-    (do (def primeiro (read-number!))
-        (def segundo (read-number!)))
+    (do (def primeiro (ler-numero!))
+        (def segundo (ler-numero!)))
     (do (def primeiro (Integer/parseInt (first args)))
         (def segundo (Integer/parseInt (second args)))))
 
