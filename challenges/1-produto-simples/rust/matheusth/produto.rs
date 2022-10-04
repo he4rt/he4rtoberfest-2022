@@ -11,7 +11,7 @@ fn read_integers() -> (i64, i64) {
         .next()
         .expect("Falhou ao ler input")
         .parse::<i64>()
-        .expect("Entrada 2 não é um número inteiro");
+        .expect("Entrada 1 não é um número inteiro");
     let number2 = split
         .next()
         .expect("Falhou ao ler input")
