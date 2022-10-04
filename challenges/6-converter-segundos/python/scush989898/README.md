@@ -1,20 +1,18 @@
 # Submissão de Exercicio
 
-**Exercicio:** 0 - Hello World
+**Exercicio:** 6 - converter segundos
 
-**Nickname:** marlonmartins2
+**Nickname:** scush989898
 
-**Nível Técnico:** - Pleno -
+**Nível Técnico:** - Estudante -
 
 **Empresa:** - Nenhuma -
 
-
 **Dificuldade de Resolução:** - Baixa -
-
 
 **Como rodar o desafio**: 
 
 Use o comando abaixo: 
 ```bash
-python3 helloworld.py
+python desafio-6.py
 ```
