@@ -18,5 +18,5 @@
 
 Use o comando abaixo: 
 ```bash
-node index.js
+node ProdutoSimples.js
 ```
