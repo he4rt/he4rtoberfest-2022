@@ -1,6 +1,6 @@
 # Submissão de Exercicio
 
-**Exercicio:** 2 - Idade em dias
+**Exercicio:** 3 - Tipos de triângulos
 
 **Nickname:** LauanAmorim
 
@@ -18,5 +18,5 @@
 
 Use o comando abaixo: 
 ```bash
-node idadeDias.js <dias>
+node tiposTriangulo.js <lado A> <lado B> <lado C>
 ```
