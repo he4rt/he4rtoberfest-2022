@@ -21,10 +21,10 @@ struct Result {
 
 impl Result {
     fn from(mut days: u64) -> Self {
-        let mut years = days / 365;
+        let years = days / 365;
         days %= 365;
 
-        let mut months = days/30;
+        let months = days/30;
         days %= 30;
 
         Self {
