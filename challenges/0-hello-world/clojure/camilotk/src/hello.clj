@@ -3,4 +3,6 @@
 (defn -main
   "A simple Hello World application"
   [& args]
-  (println "Hello, World!"))
+  (println "Hello, World!")
+  :ok)
+
