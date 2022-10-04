@@ -1,0 +1,15 @@
+C:\Projects\ht\he4rtoberfest-2022\challenges\1-produto-simples\c#\PedroLuizAP\ProdutoSimples\ProdutoSimples\bin\Debug\net6.0\ProdutoSimples.exe
+C:\Projects\ht\he4rtoberfest-2022\challenges\1-produto-simples\c#\PedroLuizAP\ProdutoSimples\ProdutoSimples\bin\Debug\net6.0\ProdutoSimples.deps.json
+C:\Projects\ht\he4rtoberfest-2022\challenges\1-produto-simples\c#\PedroLuizAP\ProdutoSimples\ProdutoSimples\bin\Debug\net6.0\ProdutoSimples.runtimeconfig.json
+C:\Projects\ht\he4rtoberfest-2022\challenges\1-produto-simples\c#\PedroLuizAP\ProdutoSimples\ProdutoSimples\bin\Debug\net6.0\ProdutoSimples.dll
+C:\Projects\ht\he4rtoberfest-2022\challenges\1-produto-simples\c#\PedroLuizAP\ProdutoSimples\ProdutoSimples\bin\Debug\net6.0\ProdutoSimples.pdb
+C:\Projects\ht\he4rtoberfest-2022\challenges\1-produto-simples\c#\PedroLuizAP\ProdutoSimples\ProdutoSimples\obj\Debug\net6.0\ProdutoSimples.csproj.AssemblyReference.cache
+C:\Projects\ht\he4rtoberfest-2022\challenges\1-produto-simples\c#\PedroLuizAP\ProdutoSimples\ProdutoSimples\obj\Debug\net6.0\ProdutoSimples.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\ht\he4rtoberfest-2022\challenges\1-produto-simples\c#\PedroLuizAP\ProdutoSimples\ProdutoSimples\obj\Debug\net6.0\ProdutoSimples.AssemblyInfoInputs.cache
+C:\Projects\ht\he4rtoberfest-2022\challenges\1-produto-simples\c#\PedroLuizAP\ProdutoSimples\ProdutoSimples\obj\Debug\net6.0\ProdutoSimples.AssemblyInfo.cs
+C:\Projects\ht\he4rtoberfest-2022\challenges\1-produto-simples\c#\PedroLuizAP\ProdutoSimples\ProdutoSimples\obj\Debug\net6.0\ProdutoSimples.csproj.CoreCompileInputs.cache
+C:\Projects\ht\he4rtoberfest-2022\challenges\1-produto-simples\c#\PedroLuizAP\ProdutoSimples\ProdutoSimples\obj\Debug\net6.0\ProdutoSimples.dll
+C:\Projects\ht\he4rtoberfest-2022\challenges\1-produto-simples\c#\PedroLuizAP\ProdutoSimples\ProdutoSimples\obj\Debug\net6.0\refint\ProdutoSimples.dll
+C:\Projects\ht\he4rtoberfest-2022\challenges\1-produto-simples\c#\PedroLuizAP\ProdutoSimples\ProdutoSimples\obj\Debug\net6.0\ProdutoSimples.pdb
+C:\Projects\ht\he4rtoberfest-2022\challenges\1-produto-simples\c#\PedroLuizAP\ProdutoSimples\ProdutoSimples\obj\Debug\net6.0\ProdutoSimples.genruntimeconfig.cache
+C:\Projects\ht\he4rtoberfest-2022\challenges\1-produto-simples\c#\PedroLuizAP\ProdutoSimples\ProdutoSimples\obj\Debug\net6.0\ref\ProdutoSimples.dll
