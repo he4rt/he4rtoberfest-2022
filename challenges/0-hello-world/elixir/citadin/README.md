@@ -2,7 +2,7 @@
 
 **Exercicio:** 0 - Hello World
 
-**Nickname:** citadin
+**Nickname:** rodrigocitadin
 
 **Nível Técnico:** - Estudante -
 
