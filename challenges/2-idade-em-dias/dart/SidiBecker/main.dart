@@ -8,6 +8,6 @@ void main(List<String> arguments) {
   dias = (dias % 365 % 30).toInt();
 
   print(anos.toString() + ' ano(s)');
-  print(meses.toString() + ' meses(s)');
-  print(dias.toString() + ' dias(s)');
+  print(meses.toString() + ' mes(es)');
+  print(dias.toString() + ' dia(s)');
 }
