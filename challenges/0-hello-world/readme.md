@@ -1,17 +1,22 @@
-# Desafio #0
+# Submissão de Exercicio
 
-**Nome:** Hello world
+**Exercicio:** 0 - Hello World
 
-**Descrição**: O desafio em questão será a porta de entrada para o nosso evento principal. Todos os membros deverão fazer um Hello World em qualquer uma das linguagens para continuar para pŕoxima fase.
+**Nickname:** CarlosJunioor
 
-Nesse desafio espera-se que você siga o [modelo de desafio](../model.md) e aplique-o corretamente. 
+**Nível Técnico:** - Junior
 
-A mensagem não necessáriamente precisa ser Hello World, você pode ser criativo e fazer algo do seu gosto!
+**Empresa:** - SouJunior
 
-**Input/Args**: Não requerido
+**Twitter**: https://twitter.com/CarlosJuniordev
 
-**Output**:
+**Dificuldade de Resolução:** - Baixa
 
-```
-Hello He4rtoberfest
+**Comentários:** legal
+
+**Como rodar o desafio**: terminal
+
+Use o comando abaixo: 
+```bash
+./a.exe
 ```
