@@ -1,6 +1,6 @@
 # Submissão de Exercicio
 
-**Exercicio:** 1 - Produto
+**Exercicio:** 1 - Produto Simples
 
 **Nickname:** matheusth
 
