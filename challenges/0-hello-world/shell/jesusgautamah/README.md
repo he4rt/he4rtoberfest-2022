@@ -14,5 +14,5 @@
 
 Use o comando abaixo: 
 ```bash
-source hello-world.sh
+source hello_world.sh
 ```
