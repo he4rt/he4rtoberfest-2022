@@ -1,6 +1,6 @@
 const myArguments = process.argv.slice(2);
 
-const conververterSeconds = (seconds) => {
+const converterSeconds = (seconds) => {
   const hours = Math.floor(seconds / 3600)
     .toString()
     .padStart(2, "0");
@@ -12,4 +12,4 @@ const conververterSeconds = (seconds) => {
   return `${hours}:${minutes}:${secondsLeft}`;
 };
 
-console.log(conververterSeconds(myArguments[0]));
+console.log(converterSeconds(myArguments[0]));
