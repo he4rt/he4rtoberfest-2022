@@ -1,24 +1,23 @@
 # Submissão de Exercicio
 
-**Exercicio:** 0 - Hello World
+**Exercicio:** 2 - Idade em dias
 
 **Nickname:** rodrigocitadin
 
 **Nível Técnico:** - Estudante -
 
-**Empresa:** - Estou em busca de uma! -
+**Empresa:** - Em busca -
 
 **Twitter**: https://twitter.com/rodrigocitadin1
 
 **Dificuldade de Resolução:** - Baixa -
 
-**Como rodar o desafio**:
+**Como rodar o desafio**: 
 
-Use os comandos abaixo:
+Use o comando abaixo: 
 ```bash
-iex "hello_world.exs"
+iex "idade_em_dias.exs"
 ```
+```bash
+iex> Challenge.idade_em_dias arg
 ```
-iex> Challenge.hello_world
-```
-

@@ -1,6 +1,6 @@
 # Submissão de Exercicio
 
-**Exercicio:** 0 - Hello World
+**Exercicio:** 1 - Produto simples
 
 **Nickname:** rodrigocitadin
 
@@ -12,13 +12,12 @@
 
 **Dificuldade de Resolução:** - Baixa -
 
-**Como rodar o desafio**:
+**Como rodar o desafio**: 
 
 Use os comandos abaixo:
 ```bash
-iex "hello_world.exs"
+iex "produto_simples.exs"
 ```
 ```
-iex> Challenge.hello_world
+iex> Challenge.produto_simples arg1, arg2
 ```
-
