@@ -18,5 +18,5 @@
 
 Use o comando abaixo: 
 ```bash
-ruby desafio-o.rb
+ruby desafio-0.rb
 ```
