@@ -1,6 +1,6 @@
 # Submissão de Exercicio
 
-**Exercicio:** 0 - Hello World
+**Exercicio:** 1 - Produto Simples
 
 **Nickname:** 'Pride
 
@@ -16,5 +16,5 @@
 
 Use o comando abaixo: 
 ```bash
-perl helloworld.pl
+perl 1-produto-simples.pl arg1 arg2
 ```
