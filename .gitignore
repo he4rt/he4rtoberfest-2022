@@ -1,0 +1,13 @@
+################################################################################
+# Este arquivo .gitignore foi criado automaticamente pelo Microsoft(R) Visual Studio.
+################################################################################
+
+/challenges/1-produto-simples/c#/PedroLuizAP/HelloWord/.vs/HelloWord/v17
+/challenges/1-produto-simples/c#/PedroLuizAP/HelloWord/HelloWord/obj
+/challenges/0-hello-world/c#/PedroLuizAP/HelloWord/HelloWord/bin/Debug/net6.0
+/challenges/0-hello-world/c#/PedroLuizAP/HelloWord/HelloWord/obj
+/challenges/0-hello-world/c#/PedroLuizAP/HelloWord/.vs
+=======
+.idea
+
+/out/

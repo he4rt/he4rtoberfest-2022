@@ -50,9 +50,3 @@ Entrada: 5.0 7.0 2.0
 
 NAO FORMA TRIANGULO
 ```
-
-```
-Entrada: 6.0 8.0 10.0
-
-NAO FORMA TRIANGULO
-```
