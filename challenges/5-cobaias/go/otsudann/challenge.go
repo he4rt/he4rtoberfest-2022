@@ -63,11 +63,11 @@ func exibirTotal(totalRatos float64, totalSapos float64, totalCoelhos float64){
   var totalCobaias float64
   totalCobaias = totalRatos + totalSapos + totalCoelhos
 
-  fmt.Println("Total: \t\t\t", totalCobaias)
-  fmt.Println("Total de coelhos: \t\t", totalCoelhos)
-  fmt.Println("Total de ratos: \t\t", totalRatos)
-  fmt.Println("Total de sapos: \t\t", totalSapos)
-  fmt.Printf("Percentual de coelhos: \t%.2f%%\n", (totalCoelhos * 100) / totalCobaias)
-  fmt.Printf("Percentual de ratos: \t%.2f%%\n", (totalRatos * 100) / totalCobaias)
-  fmt.Printf("Percentual de sapos: \t%.2f%%\n", (totalSapos * 100) / totalCobaias)
+  fmt.Println("Total: ", totalCobaias)
+  fmt.Println("Total de coelhos: ", totalCoelhos)
+  fmt.Println("Total de ratos: ", totalRatos)
+  fmt.Println("Total de sapos: ", totalSapos)
+  fmt.Printf("Percentual de coelhos: %.2f%%\n", (totalCoelhos * 100) / totalCobaias)
+  fmt.Printf("Percentual de ratos: %.2f%%\n", (totalRatos * 100) / totalCobaias)
+  fmt.Printf("Percentual de sapos: %.2f%%\n", (totalSapos * 100) / totalCobaias)
 }
