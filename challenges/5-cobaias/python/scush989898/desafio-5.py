@@ -30,7 +30,7 @@ coelhos = animals_list["C"]
 ratos = animals_list["R"]
 sapos = animals_list["S"]
 
-print(f"Total: {total} cobais")
+print(f"Total: {total} cobaias")
 print(f"Total de coelhos: {coelhos}")
 print(f"Total de ratos: {ratos}")
 print(f"Total de sapos: {sapos}")
