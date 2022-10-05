@@ -1,6 +1,6 @@
 # Submissão de Exercicio
 
-**Exercicio:** 2 - Tipos de Triangulo
+**Exercicio:** 3 - Tipos de Triângulo
 
 **Nickname:** CauaHenrique19
 
