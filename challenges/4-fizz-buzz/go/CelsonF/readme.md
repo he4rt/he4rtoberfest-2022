@@ -1,9 +1,23 @@
-##Como testar o projeto em GO
+# Submissão de Exercicio
 
-Para executar o projeto é necessario ter GO na versão **1.19.1**, instalado na máquina.
+**Exercicio:** 0 - Hello World
 
-Dentro da pasta CelsonF, utilize o comando
-```cmd
-go run .
+**Nickname:** Celson F
+
+**Nível Técnico:** Pleno
+
+**Empresa:** PRODABEL - Prefeitura de Belo Horizonte
+
+**Twitter:**
+
+**Dificuldade de Resolução:** Baixa
+
+**Comentários:**
+
+**Como rodar o desafio:**
+
+Dentro do diretório do projeto, utilize o comando abaixo:
+
+```bash
+go run main.go
 ```
-para executar o programa FizzBuzz
