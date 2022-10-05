@@ -6,7 +6,7 @@
 
 **Nível Técnico:** Estudante
 
-**Empresa:** - Nenhuma
+**Empresa:** Nenhuma
 
 **Twitter**: https://twitter.com/leotalless
 
@@ -19,6 +19,7 @@
 Use o comando abaixo: 
 ```bash
 python produto-simples.py
+
 Valor 1: # Insira um valor
 Valor 2: # Insira outro valor
 Produto = # Resultado do produto
