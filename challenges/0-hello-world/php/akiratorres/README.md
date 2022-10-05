@@ -2,7 +2,7 @@
 
 **Exercicio:** 0 - Hello World
 
-**Nickname:** danielhe4rt
+**Nickname:** akiratorres
 
 **Nível Técnico:** - Estudante -
 
