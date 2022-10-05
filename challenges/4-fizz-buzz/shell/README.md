@@ -1,6 +1,6 @@
 # Submissão de Exercicio
 
-**Exercicio:** 3 - Tipos de Triangulo
+**Exercicio:** 4 - Fizz Buzz
 
 **Nickname:** jesusgautamah
 
@@ -14,5 +14,5 @@
 
 Use o comando abaixo: 
 ```bash
-source type_of_triangles.sh
+source fizzbuzz.sh
 ```
