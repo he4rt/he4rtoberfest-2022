@@ -8,13 +8,17 @@ const cPrompt: number = parseFloat(prompt("C: "));
 
 const [a, b, c] = [aPrompt, bPrompt, cPrompt].sort((a, b) => b - a);
 
+const aPower = Math.pow(a, 2);
+const bPower = Math.pow(b, 2);
+const cPower = Math.pow(c, 2);
+
 if (a >= b + c) {
   console.log("NAO FORMA TRIANGULO");
-} else if (a === b + c) {
+} else if (aPower === bPower + cPower) {
   console.log("TRIANGULO RETANGULO");
-} else if (a > b + c) {
+} else if (aPower > bPower + cPower) {
   console.log("TRIANGULO OBTUSANGULO");
-} else if (a < b + c) {
+} else if (aPower < bPower + cPower) {
   console.log("TRIANGULO ACUTANGULO");
 }
 
