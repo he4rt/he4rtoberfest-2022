@@ -12,7 +12,7 @@
 
 **Dificuldade de Resolução:** - Baixa -
 
-**Comentários:** Nesse desafio eu achei que foi um desafio de baixa dificuldade.
+**Comentários:**
 
 **Como rodar o desafio**: 
 
