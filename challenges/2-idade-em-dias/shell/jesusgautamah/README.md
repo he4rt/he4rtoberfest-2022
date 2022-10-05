@@ -14,5 +14,5 @@
 
 Use o comando abaixo: 
 ```bash
-source days_in_years.sh
+source days_to_years.sh 400
 ```
