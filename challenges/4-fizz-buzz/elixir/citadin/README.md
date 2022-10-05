@@ -20,7 +20,7 @@ iex "fizzbuzz.exs"
 ```
 
 ```bash
-iex> Challenge.fizzbuzz arg
+iex> Challenge.fizz_buzz arg
 ```
 
 A função `Enum.each` do elixir retorna um atom `:ok` no final, não leve em consideração...
