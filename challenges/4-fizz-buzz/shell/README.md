@@ -14,5 +14,5 @@
 
 Use o comando abaixo: 
 ```bash
-source fizzbuzz.sh
+source fizzbuzz.sh 16
 ```
