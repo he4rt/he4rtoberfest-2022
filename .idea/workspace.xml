@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f213bc43-3fd1-4aaa-80f6-2d5401568abc" name="Changes" comment="" />
+    <list default="true" id="f213bc43-3fd1-4aaa-80f6-2d5401568abc" name="Changes" comment="Finalizando o desafio 0." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,6 +44,14 @@
       <option name="presentableId" value="Default" />
       <updated>1664929255359</updated>
     </task>
+    <task id="LOCAL-00001" summary="Finalizando o desafio 0.">
+      <created>1664931281391</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1664931281391</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -56,5 +64,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Finalizando o desafio 0." />
+    <option name="LAST_COMMIT_MESSAGE" value="Finalizando o desafio 0." />
   </component>
 </project>
