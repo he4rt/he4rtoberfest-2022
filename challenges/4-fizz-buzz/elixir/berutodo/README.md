@@ -1,6 +1,6 @@
 # Submissão de Exercicio
 
-**Exercicio:** 0 - Hello World
+**Exercicio:** 4 - FizzBuzz
 
 **Nickname:** berutodo
 
@@ -15,5 +15,9 @@
 
 Use o comando abaixo: 
 ```bash
-elixir helloworld.exs
+iex fizzbuzz.exs
+```
+```bash
+FizzBuzz.receiveNumber(16)
+FizzBuzz.receiveNumber(20)
 ```
