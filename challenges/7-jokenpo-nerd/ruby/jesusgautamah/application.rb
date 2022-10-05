@@ -8,7 +8,8 @@ module Application
     def run(times)
       @times = times
       run_in_times
-    rescue StandardError
+    rescue StandardError => e
+      puts e.message
       puts 'Something went wrong'
     end
 
