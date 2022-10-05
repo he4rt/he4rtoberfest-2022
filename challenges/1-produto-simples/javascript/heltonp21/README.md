@@ -1,6 +1,6 @@
 # Submissão de Exercicio
 
-**Exercicio:** 0 - Hello World
+**Exercicio:** 1 - Produto Simples
 
 **Nickname:** heltonp21
 
@@ -18,5 +18,5 @@
 
 Use o comando abaixo: 
 ```bash
-node helloWorld.js
+node produtoSimples.js argv1 argv2
 ```
