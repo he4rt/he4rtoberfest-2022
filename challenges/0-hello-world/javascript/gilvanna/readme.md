@@ -18,5 +18,5 @@
 
 Use o comando abaixo: 
 ```bash
-node helloWorld.js
+node hello-world.js
 ```
