@@ -1,0 +1,5 @@
+print("Hola nerds")
+print("Hello nerds")
+print("Olá nerds")
+print("Ciao nerds")
+print("Bonjour nerds")
