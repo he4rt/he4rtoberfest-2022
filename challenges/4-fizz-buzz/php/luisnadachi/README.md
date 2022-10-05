@@ -1,6 +1,6 @@
 # Submissão de Exercicio
 
-**Exercicio:** 2 - Idade em Dias
+**Exercicio:** 4 - FizzBuzz
 
 **Nickname:** Nadachi
 
@@ -18,5 +18,5 @@
 
 Use o comando abaixo:
 ```bash
-php desafio2.php
+php desafio4.php
 ```

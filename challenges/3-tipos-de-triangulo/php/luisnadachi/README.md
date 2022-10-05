@@ -1,6 +1,6 @@
 # Submissão de Exercicio
 
-**Exercicio:** 2 - Idade em Dias
+**Exercicio:** 3 - tipos de triângulo
 
 **Nickname:** Nadachi
 
@@ -12,11 +12,11 @@
 
 **Dificuldade de Resolução:** Baixa
 
-**Comentários:** 
+**Comentários:** lembrei que existe o rsort e o pow 
 
 **Como rodar o desafio**:
 
 Use o comando abaixo:
 ```bash
-php desafio2.php
+php desafio3.php
 ```
