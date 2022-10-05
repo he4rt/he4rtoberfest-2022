@@ -1,6 +1,6 @@
 # Submissão de Exercicio
 
-**Exercicio:** 2 - Idade em dias
+**Exercicio:** 3 - Lados do Triangulo
 
 **Nickname:** KMarculo
 
@@ -10,13 +10,13 @@
 
 **Twitter**: https://twitter.com/k_marculo
 
-**Dificuldade de Resolução:** - Facil
+**Dificuldade de Resolução:** - Medio
 
-**Comentários:** Foi legal exercitar o raciocício matematico
+**Comentários:** Curti porque tive que explorar a documentação da bliblioteca sort
 
 **Como rodar o desafio**: 
 
 Use o comando abaixo: 
 ```bash
-go run desafio2.go
+go run desafio3.go
 ```
