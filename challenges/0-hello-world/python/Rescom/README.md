@@ -5,13 +5,13 @@
 
 **Nickname:** Rescom
 
-**Nível Técnico:** - Junior -
+**Nível Técnico:**  Junior 
 
-**Empresa:** - Nenhuma -
+**Empresa:**  Nenhuma 
 
 **Twitter**: https://twitter.com/rescomPy
 
-**Dificuldade de Resolução:** - Baixa -
+**Dificuldade de Resolução:**  Baixa 
 
 **Comentários:** O primeiro passo para uma jornada incrivel!
 
