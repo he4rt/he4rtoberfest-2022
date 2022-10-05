@@ -7,7 +7,7 @@ public class ProdutoSimples {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Digite um numero: ");
-        int  num1 = (int) scanner.nextInt();
+        int  num1 = scanner.nextInt();
 
         System.out.print("Digite outro numero: " );
         int num2 = scanner.nextInt();
