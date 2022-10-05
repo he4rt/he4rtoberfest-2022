@@ -10,15 +10,15 @@ main() {
 
   for (int i = 0; i < n; ++i) {
     var linha = stdin.readLineSync()!.split(' ');
-    var quantidade = int.parse(linha[0]);
-    var cobaia = linha[1];
+    int quantidade = int.parse(linha[0]);
+    String cobaia = linha[1];
     mapCobaias.update(cobaia, (value) => value + quantidade);
   }
 
-  var totalCobaias = mapCobaias.values.fold(0, (prev, curr) => prev + curr);
-  var coelhos = mapCobaias['C']!;
-  var ratos = mapCobaias['R']!;
-  var sapos = mapCobaias['S']!;
+  int totalCobaias = mapCobaias.values.fold(0, (prev, curr) => prev + curr);
+  int coelhos = mapCobaias['C']!;
+  int ratos = mapCobaias['R']!;
+  int sapos = mapCobaias['S']!;
 
   print('''
 Total: $totalCobaias cobaias
