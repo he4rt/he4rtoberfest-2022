@@ -14,5 +14,5 @@
 
 Use o comando abaixo: 
 ```bash
-source simple_product.sh
+source simple_product.sh 10 3
 ```
