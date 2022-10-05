@@ -14,5 +14,5 @@
 
 Com o node instalado, use comando no terminal:
 ```bash
-node tipos-de-triangulo.js
+node tipos-de-triangulo.js argv1 argv2 argv3
 ```

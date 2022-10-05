@@ -41,6 +41,10 @@ const printTriangleTypes = (triangle) => {
   }
 }
 
-const triangle = makeTriangle(5.0, 7.0, 2.0)
+const point1 = process.argv[2]
+const point2 = process.argv[3]
+const point3 = process.argv[4]
+
+const triangle = makeTriangle(point1, point2, point3)
 
 printTriangleTypes(triangle)
