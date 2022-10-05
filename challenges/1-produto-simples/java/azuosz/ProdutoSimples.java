@@ -1,6 +1,6 @@
 import  java.util.Scanner;
 
-public class produtoSimples {
+public class ProdutoSimples {
 
     public static void main(String[] args) {
 
