@@ -29,5 +29,7 @@ node index.js 400
 Saída:
 
 ```bash
-produto: 30
+1 ano(s)
+1 mes(es)
+5 dia(s)
 ```
