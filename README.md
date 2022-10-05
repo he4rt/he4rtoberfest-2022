@@ -26,6 +26,9 @@ Na lista abaixo estarão todos os exercicios que iremos aceitar nos nossos pull 
 - [2 - Idade em Dias](./challenges/2-idade-em-dias/readme.md)
 - [3 - Tipos de Triângulo](./challenges/3-tipos-de-triangulo/readme.md)
 - [4 - Fizz Buzz](./challenges/4-fizz-buzz/readme.md)
+- [5 - Cobaias](./challenges/5-cobaias/readme.md)
+- [6 - Converter Segundos](./challenges/6-converter-segundos/readme.md)
+- [7 - Jokenpo Nerd](./challenges/7-jokenpo-nerd/readme.md)
 
 Caso você queira dar sugestões de desafios, contate algum moderador no [Discord da He4rt](https://discord.gg/he4rt).
   
@@ -46,7 +49,7 @@ A ideia do desafio 0 é deixar registrado todos os participantes do He4rtoberfes
 Quando você for criar a branch para mandar o Pull Request, você deverá seguir o exemplo abaixo:
 
 1. Realize um Fork do projeto
-2. Vá até o repositório do fork no seu github e na parte code copie o link para clonar
+2. Vá até o repositório do fork no seu github e na parte code copie o link para clonar (HTTPS ou SSH)
 3. Abra o terminal, escolha uma pasta de sua preferência e faça um clone git clone cole o link que você copiou
 4. Crie uma pasta da linguagem que você escolheu no diretório `challenges/id_challenge/lang/`
 5. Depois dentro desta pasta lang crie a pasta com seu nickname ficando assim `challenges/id_challenge/lang/nickname`
@@ -67,27 +70,29 @@ Como o nosso objetivo será dar a melhor experiência possível para o participa
 - Erros de digitação/gramaticais e nomes de variáveis sem um contexto, tais como [a,b,c,x,y,z] deverão ser pedidas alterações;
 - Isolamento de funções quando necessário também poderá ser requisitado.
 
-Qualquer dúvida, poderá ir o nosso [banco de dúvidas](https://github.com/he4rt/he4rtoberfest-2022/issues/1) e perguntar.
+Qualquer dúvida, poderá ir o nosso [banco de dúvidas](https://github.com/he4rt/he4rtoberfest-2022/issues) e perguntar.
 
 ## Atualizando o seu fork
 
 Caso esse repositório seja atualizado com novos exercícios você precisa atualizar seu fork
 
 ```bash
-# 1. Mudar para a branch master
-git checkout master
+# 1. Mudar para a branch main
+git checkout main
 # 2. Checar se sua cópia local tem o link do original
 git remote -v
 # 3. Se não, adicione o link do original
-git remote add upstream git@github.com:he4rt/he4rtoberfest-2022.git
+git remote add upstream git@github.com:he4rt/he4rtoberfest-2022.git 
+# ou 
+git remote add upstream https://github.com/he4rt/he4rtoberfest-2022.git 
 # 4. Confirme se o link foi adicionado
 git remote -v
 # 5. Agora você pode fazer o fetch com o repo original, assumindo que o nome do link é 'upstream'
 git fetch upstream
-# 6. Fazer merge dos updates para sua branch master
-git merge upstream/master master
+# 6. Fazer merge dos updates para sua branch main
+git merge upstream/main main 
 # 7. Realizar o push para seu fork com as novas mudanças 
-git push origin master
+git push origin main
 ```
 
 ## Materiais complementares
