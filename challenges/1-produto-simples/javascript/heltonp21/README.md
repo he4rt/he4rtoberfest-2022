@@ -1,22 +1,22 @@
 # Submissão de Exercicio
 
-**Exercicio:** 2 - Idade-em-dias
+**Exercicio:** 1 - Produto Simples
 
-**Nickname:** lbarcat   
+**Nickname:** heltonp21
 
 **Nível Técnico:** - Estudante -
 
 **Empresa:** - Nenhuma -
 
-**Twitter**: https://twitter.com/LucasBarcat
+**Twitter**: https://twitter.com/heltonp21
 
 **Dificuldade de Resolução:** - Baixa -
 
-**Comentários:** 
+**Comentários:**
 
 **Como rodar o desafio**: 
 
 Use o comando abaixo: 
 ```bash
-php helloworld.php argv1 argv2 argv3
+node produtoSimples.js argv1 argv2
 ```
