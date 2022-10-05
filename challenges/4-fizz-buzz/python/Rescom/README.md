@@ -4,13 +4,13 @@
 
 **Nickname:** Rescom
 
-**Nível Técnico:** - junior -
+**Nível Técnico:**  junior 
 
-**Empresa:** - Nenhuma -
+**Empresa:**  Nenhuma 
 
 **Twitter**: https://twitter.com/rescomPy
 
-**Dificuldade de Resolução:** - Baixa -
+**Dificuldade de Resolução:**  Baixa 
 
 **Comentários:** 
 
