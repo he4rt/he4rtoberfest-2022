@@ -8,7 +8,7 @@
 
 **Empresa:** - Nenhuma -
 
-**Twitter**: https://twitter.com/akirefern
+**Twitter**: https://twitter.com/akirafern
 
 **Dificuldade de Resolução:** - Baixa -
 
