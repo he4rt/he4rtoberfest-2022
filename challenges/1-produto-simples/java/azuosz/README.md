@@ -1,6 +1,6 @@
 # Submissão de Exercicio
 
-**Exercicio:** 0 - Hello World
+**Exercicio:** 1 - Produto Simples
 
 **Nickname:** azuosz
 
@@ -12,7 +12,7 @@
 
 **Dificuldade de Resolução:** - Baixa -
 
-**Comentários:** Desafio introdutório bem de tranquilo
+**Comentários:** 
 
 **Como rodar o desafio**: 
 
