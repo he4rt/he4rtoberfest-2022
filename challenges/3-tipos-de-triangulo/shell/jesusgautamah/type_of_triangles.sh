@@ -10,7 +10,7 @@ C_SIDE_INT=${C_SIDE_FLOAT%.*}
 
 if [ $A_SIDE_INT -ge $(( $B_SIDE_INT + $C_SIDE_INT )) ]; then
     echo "NAO FORMA TRIANGULO"
-elif then
+elif; then
   if [ $(( $A_SIDE_INT * $A_SIDE_INT )) -eq $(( $B_SIDE_INT * $B_SIDE_INT + $C_SIDE_INT * $C_SIDE_INT )) ]; then
       echo "TRIANGULO RETANGULO"
   fi
