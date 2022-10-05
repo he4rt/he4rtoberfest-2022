@@ -6,7 +6,7 @@
 
 **Nível Técnico:** - Estudante -
 
-**Empresa:** -  -
+**Empresa:** 
 
 **Twitter**: 
 
