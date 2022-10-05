@@ -7,15 +7,14 @@ public class produtoSimples {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Digite um numero: ");
-        int  num1 = scanner.nextDouble();
+        int  num1 = (int) scanner.nextInt();
 
         System.out.print("Digite outro numero: " );
-        int num2 = scanner.nextDouble();
+        int num2 = scanner.nextInt();
 
         int produto = num1*num2;
         System.out.println("produto " + produto );
 
-        System.out.println("produto: " + produto );
 
 
 
