@@ -21,3 +21,4 @@ module Application
 end
 
 puts Application.run(ARGV[0].to_i)
+
