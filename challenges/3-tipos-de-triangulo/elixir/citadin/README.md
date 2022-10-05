@@ -1,12 +1,12 @@
 # Submissão de Exercicio
 
-**Exercicio:** 2 - Idade em dias
+**Exercicio:** 3 - Tipos de triangulos
 
 **Nickname:** rodrigocitadin
 
 **Nível Técnico:** - Estudante -
 
-**Empresa:** - Em busca -
+**Empresa:** - Em busca de um emprego -
 
 **Twitter**: https://twitter.com/rodrigocitadin1
 
@@ -16,8 +16,9 @@
 
 Use o comando abaixo: 
 ```bash
-iex "idade_em_dias.exs"
+iex "tipos_de_triangulos.exs"
 ```
+
 ```bash
-iex> Challenge.idade_em_dias arg
+iex> Challenge.triangle arg1, arg2, arg3"
 ```
