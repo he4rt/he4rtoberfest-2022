@@ -13,7 +13,7 @@ public class ProdutoSimples {
         int num2 = scanner.nextInt();
 
         int produto = num1*num2;
-        System.out.println("produto " + produto );
+        System.out.println("Produto: " + produto );
 
 
 
