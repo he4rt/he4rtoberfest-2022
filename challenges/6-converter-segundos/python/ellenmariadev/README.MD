@@ -1,6 +1,6 @@
 # Submissão de Exercicio
 
-**Exercicio:** 4 - Fizz Buzz
+**Exercicio:** 6 - Converter Segundos
 
 **Nickname:** ellenmariadev
 
@@ -8,15 +8,15 @@
 
 **Empresa:** Nenhuma
 
-**Twitter**: https://twitter.com/ellenmariadev 
+**Twitter**: https://twitter.com/ellenmariadev (opcional)
 
 **Dificuldade de Resolução:** Baixa
 
-**Comentários:** O clássico FizzBuzz!
+**Comentários:** \o/
 
 **Como rodar o desafio**: 
 
 Use o comando abaixo: 
 ```bash
-node fizzbuzz.js
+python converter_segundos.py
 ```
