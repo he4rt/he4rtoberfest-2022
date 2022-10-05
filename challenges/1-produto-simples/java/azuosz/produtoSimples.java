@@ -13,11 +13,10 @@ public class produtoSimples {
         int num2 = scanner.nextDouble();
 
         int produto = num1*num2;
-<<<<<<< HEAD
         System.out.println("produto " + produto );
-=======
+
         System.out.println("produto: " + produto );
->>>>>>> origin/challenges/1/java/azuosz
+
 
 
 
