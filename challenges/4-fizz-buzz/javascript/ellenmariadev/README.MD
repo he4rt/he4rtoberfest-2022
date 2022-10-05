@@ -18,5 +18,5 @@
 
 Use o comando abaixo: 
 ```bash
-node fizz-buzz.js
+node fizzbuzz.js
 ```
