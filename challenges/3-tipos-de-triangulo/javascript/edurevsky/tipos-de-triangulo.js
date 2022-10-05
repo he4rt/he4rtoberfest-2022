@@ -32,11 +32,16 @@ const printTriangleTypes = (triangle) => {
     let result = func(triangle)
 
     if (result) {
-      console.log(outputValue)
-    }
 
-    if (result && func == TriangleTypes.None[0]) {
-      return
+      console.log(outputValue)
+
+      if (func == TriangleTypes.None[0]) {
+        return
+      }
+  
+      if (func == TriangleTypes.Equilateral[0]) {
+        return
+      }
     }
   }
 }
