@@ -1,22 +1,22 @@
 # Submissão de Exercicio
 
-**Exercicio:** 0 - Hello World
+**Exercicio:** 2 - Idade em Dias
 
 **Nickname:** ellenmariadev
 
 **Nível Técnico:** Junior
 
-**Empresa:** Nenhuma
+**Empresa:** Nenhuma 
 
 **Twitter**: https://twitter.com/ellenmariadev 
 
 **Dificuldade de Resolução:** Baixa
 
-**Comentários:** \o/ He4rtoberfest \o/
+**Comentários:** ---
 
 **Como rodar o desafio**: 
 
 Use o comando abaixo: 
 ```bash
-node hello-world.js
+python idade_em_dias.py
 ```
