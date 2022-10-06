@@ -2,17 +2,17 @@
 
 **Exercicio:** 1 - Produto Simples
 
-**Nickname:** SidiBecker
+**Nickname:** IagoAntunes
 
 **Nível Técnico:** Pleno
 
-**Empresa:** Sysmo Sistemas
+**Empresa:** Alfa Engenharia
 
-**Twitter**: https://twitter.com/sideera
+**Twitter**: https://twitter.com/danielhe4rt
 
 **Dificuldade de Resolução:** Baixa
 
-**Comentários:** Desafio bem simples. No Dart os parâmetros chegam em uma lista string, então é necessário antes fazer a conversão para números antes de realizar cálculos.
+**Comentários:** Desafio Simples mas solucionado de uma forma diferente por curiosidade
 
 **Como rodar o desafio**: 
 
