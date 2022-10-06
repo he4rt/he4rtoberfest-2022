@@ -42,6 +42,6 @@ func TestIdadeEmDias(t *testing.T) {
 // go test -bench=.
 func BenchmarkIdadeEmDias(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		IdadeEmDias(rand.Intn(7))
+		IdadeEmDias(rand.Intn(999))
 	}
 }
