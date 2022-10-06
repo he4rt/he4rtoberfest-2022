@@ -15,35 +15,36 @@ C_SIDE_INT=$(echo "$C_SIDE_INT / 100" | bc)
 
 if [ $A_SIDE_INT -gt $B_SIDE_INT ] && [ $A_SIDE_INT -gt $C_SIDE_INT ]; then
     if [ $B_SIDE_INT -gt $C_SIDE_INT ]; then
-        C_SIDE=$A_SIDE_INT
+        A_SIDE=$A_SIDE_INT
         B_SIDE=$B_SIDE_INT
-        A_SIDE=$C_SIDE_INT
+        C_SIDE=$C_SIDE_INT
     else
-        C_SIDE=$A_SIDE_INT
+        A_SIDE=$A_SIDE_INT
         B_SIDE=$C_SIDE_INT
-        A_SIDE=$B_SIDE_INT
+        C_SIDE=$B_SIDE_INT
     fi
 elif [ $B_SIDE_INT -gt $A_SIDE_INT ] && [ $B_SIDE_INT -gt $C_SIDE_INT ]; then
     if [ $A_SIDE_INT -gt $C_SIDE_INT ]; then
-        C_SIDE=$B_SIDE_INT
+        A_SIDE=$B_SIDE_INT
         B_SIDE=$A_SIDE_INT
-        A_SIDE=$C_SIDE_INT
+        C_SIDE=$C_SIDE_INT
     else
-        C_SIDE=$B_SIDE_INT
+        A_SIDE=$B_SIDE_INT
         B_SIDE=$C_SIDE_INT
-        A_SIDE=$A_SIDE_INT
+        C_SIDE=$A_SIDE_INT
     fi
 elif [ $C_SIDE_INT -gt $A_SIDE_INT ] && [ $C_SIDE_INT -gt $B_SIDE_INT ]; then
     if [ $A_SIDE_INT -gt $B_SIDE_INT ]; then
-        C_SIDE=$C_SIDE_INT
+        A_SIDE=$C_SIDE_INT
         B_SIDE=$A_SIDE_INT
-        A_SIDE=$B_SIDE_INT
+        C_SIDE=$B_SIDE_INT
     else
-        C_SIDE=$C_SIDE_INT
+        A_SIDE=$C_SIDE_INT
         B_SIDE=$B_SIDE_INT
-        A_SIDE=$A_SIDE_INT
+        C_SIDE=$A_SIDE_INT
     fi
 fi
+
 
 if [ $A_SIDE -ge $(( $B_SIDE + $C_SIDE )) ]; then
     echo "NAO FORMA TRIANGULO"
