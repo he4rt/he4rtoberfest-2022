@@ -18,6 +18,6 @@
 
 Certifique-se que o Java está instalado na sua máquina e use o comando abaixo: 
 ```bash
-java ProdutoSimples.java
 javac ProdutoSimples.java
+java ProdutoSimples
 ```
