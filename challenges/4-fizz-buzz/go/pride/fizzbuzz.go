@@ -1,10 +1,18 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"log"
+)
 
 func main() {
-	for i := 1; i <= 50; i++ {
+	var a int
+	_, err := fmt.Scanln(&a)
+	for i := 1; i <= a; i++ {
 		fizzBuzz(i)
+	}
+	if err != nil {
+		log.Fatal(err, "\tPlease use an integer!!!")
 	}
 }
 
