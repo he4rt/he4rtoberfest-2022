@@ -1,6 +1,6 @@
 # Submissão de Exercicio
 
-**Exercicio:** 0 - Hello World
+**Exercicio:** 2 - Idade em Dias
 
 **Nickname:** gusttavodev
 
