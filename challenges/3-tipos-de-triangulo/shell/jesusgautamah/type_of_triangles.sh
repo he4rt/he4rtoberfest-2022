@@ -4,39 +4,44 @@ A_SIDE_FLOAT=$1
 B_SIDE_FLOAT=$2
 C_SIDE_FLOAT=$3
 
-A_SIDE_INT=${A_SIDE_FLOAT%.*}
-B_SIDE_INT=${B_SIDE_FLOAT%.*}
-C_SIDE_INT=${C_SIDE_FLOAT%.*}
+# shell dont support float point numbers
+# let's take then and convert to integer
+A_SIDE_INT=$(echo "$A_SIDE_FLOAT * 100" | bc)
+B_SIDE_INT=$(echo "$B_SIDE_FLOAT * 100" | bc)
+C_SIDE_INT=$(echo "$C_SIDE_FLOAT * 100" | bc)
+A_SIDE_INT=$(echo "$A_SIDE_INT / 100" | bc)
+B_SIDE_INT=$(echo "$B_SIDE_INT / 100" | bc)
+C_SIDE_INT=$(echo "$C_SIDE_INT / 100" | bc)
 
 if [ $A_SIDE_INT -gt $B_SIDE_INT ] && [ $A_SIDE_INT -gt $C_SIDE_INT ]; then
     if [ $B_SIDE_INT -gt $C_SIDE_INT ]; then
-        A_SIDE=$A_SIDE_INT
+        C_SIDE=$A_SIDE_INT
         B_SIDE=$B_SIDE_INT
-        C_SIDE=$C_SIDE_INT
+        A_SIDE=$C_SIDE_INT
     else
-        A_SIDE=$A_SIDE_INT
+        C_SIDE=$A_SIDE_INT
         B_SIDE=$C_SIDE_INT
-        C_SIDE=$B_SIDE_INT
+        A_SIDE=$B_SIDE_INT
     fi
 elif [ $B_SIDE_INT -gt $A_SIDE_INT ] && [ $B_SIDE_INT -gt $C_SIDE_INT ]; then
     if [ $A_SIDE_INT -gt $C_SIDE_INT ]; then
-        A_SIDE=$B_SIDE_INT
+        C_SIDE=$B_SIDE_INT
         B_SIDE=$A_SIDE_INT
-        C_SIDE=$C_SIDE_INT
+        A_SIDE=$C_SIDE_INT
     else
-        A_SIDE=$B_SIDE_INT
+        C_SIDE=$B_SIDE_INT
         B_SIDE=$C_SIDE_INT
-        C_SIDE=$A_SIDE_INT
+        A_SIDE=$A_SIDE_INT
     fi
 elif [ $C_SIDE_INT -gt $A_SIDE_INT ] && [ $C_SIDE_INT -gt $B_SIDE_INT ]; then
     if [ $A_SIDE_INT -gt $B_SIDE_INT ]; then
-        A_SIDE=$C_SIDE_INT
+        C_SIDE=$C_SIDE_INT
         B_SIDE=$A_SIDE_INT
-        C_SIDE=$B_SIDE_INT
+        A_SIDE=$B_SIDE_INT
     else
-        A_SIDE=$C_SIDE_INT
+        C_SIDE=$C_SIDE_INT
         B_SIDE=$B_SIDE_INT
-        C_SIDE=$A_SIDE_INT
+        A_SIDE=$A_SIDE_INT
     fi
 fi
 
