@@ -14,8 +14,10 @@
 
 **Como rodar o desafio**:
 
-Se estiver em um windows execute o desafio.exe
+Se estiver em um windows execute o comando
 
 ```path
-desafio6/bin/Release/net6.0/desafio6.exe
+dotnet run
 ```
+
+dentro da pasta CelsonF
