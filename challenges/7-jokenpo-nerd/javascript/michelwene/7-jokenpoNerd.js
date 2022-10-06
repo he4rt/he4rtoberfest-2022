@@ -3,7 +3,7 @@ const myArgument = process.argv.slice(2);
 const numberOfCases = myArgument[0];
 
 const tests = Array.from({ length: numberOfCases }, (_, i) => {
-  const [player1, player2] = myArgument[i + 1].split(" ");
+  const [player1, player2] = myArgument[i].split(" ");
   return [player1, player2];
 });
 const results = [];
