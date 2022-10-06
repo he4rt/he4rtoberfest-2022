@@ -1,6 +1,6 @@
 # Submissão de Exercicio
 
-**Exercicio:** 5 - Cobaias
+**Exercicio:** 4 - Fizz Buzz
 
 **Nickname:** felipersteles
 
@@ -14,8 +14,7 @@
 
 **Como rodar o desafio**: 
 
-1 - Abra o terminal e execute o comando java cobaias.java;
+1- Abra o terminal e gere a classe com o comando: "java fizzbuz.java";
 
-2 - Insira a quantidade de testes;
 
-3 - Insira um numero inteiro e uma letra entre R, C ou S;
+2 - Digite um numero inteiro e aperte ENTER;
