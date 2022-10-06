@@ -1,7 +1,7 @@
 @@ -0,0 +1,23 @@
 # Submissão de Exercicio
 
-**Exercicio:** 0 - Hello World
+**Exercicio:** 1 - Produto Simples
 
 **Nickname:** joaomoraski
 
@@ -20,5 +20,5 @@
 Use o comando abaixo: 
 ```bash
 go test
-go run
+go run arg1 arg2
 ```
