@@ -4,12 +4,15 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-        Console.Write("Digite o valor do primeiro produto: ");
-        if (!int.TryParse(Console.ReadLine(), out int x)) throw new ArgumentException("Primeiro parâmetro inválido.");
+        while (true)
+        {
+            Console.Write("Digite o valor do primeiro produto: ");
+            if (!int.TryParse(Console.ReadLine(), out int x)) throw new ArgumentException("Primeiro parâmetro inválido.");
 
-        Console.Write("Digite o valor do segundo produto: ");
-        if (!int.TryParse(Console.ReadLine(), out int y)) throw new ArgumentException("Segundo parâmetro inválido.");
-        Console.WriteLine(Produto.Calc(x, y));
+            Console.Write("Digite o valor do segundo produto: ");
+            if (!int.TryParse(Console.ReadLine(), out int y)) throw new ArgumentException("Segundo parâmetro inválido.");
+            Console.WriteLine(Produto.Calc(x, y));
+        }
     }
     public static class Produto
     {
