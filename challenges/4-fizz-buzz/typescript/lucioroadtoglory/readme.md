@@ -8,7 +8,7 @@
 
 **Empresa:** - Riderize -
 
-**Twitter**: https://twitter.com/lucioreyli (opcional)
+**Twitter**: https://twitter.com/lucioreyli
 
 **Dificuldade de Resolução:** - Baixa -
 
