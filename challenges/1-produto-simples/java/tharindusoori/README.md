@@ -1,6 +1,6 @@
 # Exercise Submission
 
-**Exercise:** 0 - challenge #1
+**Exercise:** 1 - Simple Product
 
 **Nickname:** tharindusoori
 
