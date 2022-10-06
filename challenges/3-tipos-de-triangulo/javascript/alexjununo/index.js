@@ -3,9 +3,9 @@ const [ arg1, arg2, arg3 ] = process.argv.slice(2);
 const notCreateTriangle = (a, b, c) => (a >= b + c);
 const isoscelesTriangle = (a, b, c) => (a === b || b === c);
 const equilateralTriangle = (a, b, c) => (a === b && b === c);
-const rightTriangle = (a, b, c) => (a * 2 === b * 2 + c * 2);
-const obtuseTriangle = (a, b, c) => (a * 2 > b * 2 + c * 2);
-const acuteTriangle = (a, b, c) => (a * 2 < b * 2 + c * 2);
+const rightTriangle = (a, b, c) => (Math.pow(a, 2) === Math.pow(b, 2) + Math.pow(c, 2));
+const obtuseTriangle = (a, b, c) => (Math.pow(a, 2) > Math.pow(b, 2) + Math.pow(c, 2));
+const acuteTriangle = (a, b, c) => (Math.pow(a, 2) < Math.pow(b, 2) + Math.pow(c, 2));
 
 const triangleType = (a, b, c) => {
     const hasInvalidValues = [a, b, c].some((value) => value <= 0);
