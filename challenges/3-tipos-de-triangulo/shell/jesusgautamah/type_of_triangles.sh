@@ -3,9 +3,6 @@
 A_SIDE_FLOAT=$1
 B_SIDE_FLOAT=$2
 C_SIDE_FLOAT=$3
-
-# shell dont support float point numbers
-# let's take then and convert to integer
 A_SIDE_INT=$(echo "$A_SIDE_FLOAT * 100" | bc)
 B_SIDE_INT=$(echo "$B_SIDE_FLOAT * 100" | bc)
 C_SIDE_INT=$(echo "$C_SIDE_FLOAT * 100" | bc)
