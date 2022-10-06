@@ -8,11 +8,9 @@
 
 **Empresa:** - [PagoNxt](https://www.pagonxt.com/home) -
 
-**Twitter**: https://twitter.com/alexjununo (opcional)
+**Twitter**: https://twitter.com/alexjununo
 
 **Dificuldade de Resolução:** - Baixa -
-
-**Comentários:** Nesse desafio eu achei que ... (Opcional)
 
 **Como rodar o desafio**: 
 
