@@ -16,7 +16,7 @@ if (ladoA >= (Number(ladoB) + Number(ladoC))){
     if ((ladoA === ladoB) && (ladoB === ladoC)) {
     console.log("triângulo equilátero.")
   }
-  if ((ladoA === ladoB) || (ladoB === ladoC)) {
+  if ((ladoA === ladoB && ladoA != ladoC) || (ladoB === ladoC && ladoB != ladoA) || (ladoA === ladoC && ladoA != ladoB)) {
     console.log("triângulo isóceles.")
   }
   else if (Math.pow(ladoA, 2) === Math.pow(ladoB, 2) + Math.pow(ladoC, 2)) {
