@@ -14,4 +14,8 @@
 
 **Como rodar o desafio**:
 
-Clique no exe escrito desafio6 e insira o número em segundos
+Se estiver em um windows execute o desafio.exe
+
+```path
+desafio6/bin/Release/net6.0/desafio6.exe
+```
