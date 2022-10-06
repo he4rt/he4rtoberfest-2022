@@ -18,5 +18,5 @@
 
 Use o comando abaixo: 
 ```bash
-python idade_em_dias.py dias
+python idade_em_dias.py <dias>
 ```
