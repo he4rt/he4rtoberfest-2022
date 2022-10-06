@@ -9,8 +9,6 @@ args.sort(function(a, b) {
     return a - b;
   }).reverse();
 
-console.log(args)
-
 const a = args[0];
 const b = args[1];
 const c = args[2];
