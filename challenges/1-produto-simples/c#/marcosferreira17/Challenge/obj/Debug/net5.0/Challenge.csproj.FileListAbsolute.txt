@@ -1,0 +1,16 @@
+C:\dev\my_projects\he4rtoberfest-2022\challenges\1-produto-simples\c#\marcosferreira17\Challenge\obj\Debug\net5.0\Challenge.csproj.AssemblyReference.cache
+C:\dev\my_projects\he4rtoberfest-2022\challenges\1-produto-simples\c#\marcosferreira17\Challenge\obj\Debug\net5.0\Challenge.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\my_projects\he4rtoberfest-2022\challenges\1-produto-simples\c#\marcosferreira17\Challenge\obj\Debug\net5.0\Challenge.AssemblyInfoInputs.cache
+C:\dev\my_projects\he4rtoberfest-2022\challenges\1-produto-simples\c#\marcosferreira17\Challenge\obj\Debug\net5.0\Challenge.AssemblyInfo.cs
+C:\dev\my_projects\he4rtoberfest-2022\challenges\1-produto-simples\c#\marcosferreira17\Challenge\obj\Debug\net5.0\Challenge.csproj.CoreCompileInputs.cache
+C:\dev\my_projects\he4rtoberfest-2022\challenges\1-produto-simples\c#\marcosferreira17\Challenge\bin\Debug\net5.0\Challenge.exe
+C:\dev\my_projects\he4rtoberfest-2022\challenges\1-produto-simples\c#\marcosferreira17\Challenge\bin\Debug\net5.0\Challenge.deps.json
+C:\dev\my_projects\he4rtoberfest-2022\challenges\1-produto-simples\c#\marcosferreira17\Challenge\bin\Debug\net5.0\Challenge.runtimeconfig.json
+C:\dev\my_projects\he4rtoberfest-2022\challenges\1-produto-simples\c#\marcosferreira17\Challenge\bin\Debug\net5.0\Challenge.runtimeconfig.dev.json
+C:\dev\my_projects\he4rtoberfest-2022\challenges\1-produto-simples\c#\marcosferreira17\Challenge\bin\Debug\net5.0\Challenge.dll
+C:\dev\my_projects\he4rtoberfest-2022\challenges\1-produto-simples\c#\marcosferreira17\Challenge\bin\Debug\net5.0\Challenge.pdb
+C:\dev\my_projects\he4rtoberfest-2022\challenges\1-produto-simples\c#\marcosferreira17\Challenge\obj\Debug\net5.0\Challenge.dll
+C:\dev\my_projects\he4rtoberfest-2022\challenges\1-produto-simples\c#\marcosferreira17\Challenge\obj\Debug\net5.0\refint\Challenge.dll
+C:\dev\my_projects\he4rtoberfest-2022\challenges\1-produto-simples\c#\marcosferreira17\Challenge\obj\Debug\net5.0\Challenge.pdb
+C:\dev\my_projects\he4rtoberfest-2022\challenges\1-produto-simples\c#\marcosferreira17\Challenge\obj\Debug\net5.0\Challenge.genruntimeconfig.cache
+C:\dev\my_projects\he4rtoberfest-2022\challenges\1-produto-simples\c#\marcosferreira17\Challenge\obj\Debug\net5.0\ref\Challenge.dll
