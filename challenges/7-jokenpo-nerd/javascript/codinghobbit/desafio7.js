@@ -1,5 +1,7 @@
 function jokenpo(player1, player2) {
-  return (player1 == "tesoura" && player2 == "papel") ||
+  return (player1 == player2
+    ? "emapte"
+    : player1 == "tesoura" && player2 == "papel") ||
     (player1 == "tesoura" && player2 == "lagarto") ||
     (player1 == "papel" && player2 == "pedra") ||
     (player1 == "papel" && player2 == "spock") ||
@@ -10,19 +12,7 @@ function jokenpo(player1, player2) {
     (player1 == "spock" && player2 == "tesoura") ||
     (player1 == "spock" && player2 == "pedra")
     ? "player1"
-    : (player2 == "tesoura" && player1 == "papel") ||
-      (player2 == "tesoura" && player1 == "spock") ||
-      (player2 == "tesoura" && player1 == "lagarto") ||
-      (player2 == "papel" && player1 == "pedra") ||
-      (player2 == "papel" && player1 == "spock") ||
-      (player2 == "pedra" && player1 == "tesoura") ||
-      (player2 == "pedra" && player1 == "lagarto") ||
-      (player2 == "lagarto" && player1 == "spock") ||
-      (player2 == "lagarto" && player1 == "papel") ||
-      (player2 == "spock" && player1 == "tesoura") ||
-      (player2 == "spock" && player1 == "pedra")
-    ? "player2"
-    : "empate";
+    : "player2";
 }
 
 const readline = require("readline").createInterface({
