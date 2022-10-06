@@ -8,7 +8,7 @@
 
 **Empresa:** - Devsquad - Utah
 
-**Twitter**: https://twitter.com/zander_kun (opcional)
+**Twitter**: https://twitter.com/zander_kun
 
 **Dificuldade de Resolução:** Baixa
 
