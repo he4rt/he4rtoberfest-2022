@@ -1,5 +1,3 @@
-package com.maikella.exer3;
-
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.Scanner;
