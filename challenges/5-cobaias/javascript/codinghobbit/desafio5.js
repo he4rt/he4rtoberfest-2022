@@ -10,7 +10,7 @@ readline.question(
     const dataCounters = { total: 0, rabbits: 0, rats: 0, frogs: 0 };
 
     data.forEach((item, index) => {
-      if (index % 2 === 0 && data[index + 1] != -1) {
+      if (index % 2 === 0) {
         dataCounters.total += parseInt(item);
         data[index + 1].toUpperCase() === "C"
           ? (dataCounters.rabbits += parseInt(item))
