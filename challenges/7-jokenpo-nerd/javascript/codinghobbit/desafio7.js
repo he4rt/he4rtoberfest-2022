@@ -1,18 +1,13 @@
 function jokenpo(player1, player2) {
-  return (player1 == player2
+  return player1 == player2
     ? "empate"
-    : player1 == "tesoura" && player2 == "papel") ||
-    (player1 == "tesoura" && player2 == "lagarto") ||
-    (player1 == "papel" && player2 == "pedra") ||
-    (player1 == "papel" && player2 == "spock") ||
-    (player1 == "pedra" && player2 == "tesoura") ||
-    (player1 == "pedra" && player2 == "lagarto") ||
-    (player1 == "lagarto" && player2 == "spock") ||
-    (player1 == "lagarto" && player2 == "papel") ||
-    (player1 == "spock" && player2 == "tesoura") ||
-    (player1 == "spock" && player2 == "pedra")
-    ? "player1"
-    : "player2";
+    : (player1 == "tesoura" && (player2 == "papel" || player2 == "lagarto")) ||
+      (player1 == "papel" && (player2 == "pedra" || player2 == "spock")) ||
+      (player1 == "pedra" && (player2 == "tesoura" || player2 == "lagarto")) ||
+      (player1 == "lagarto" && (player2 == "spock" || player2 == "papel")) ||
+      (player1 == "spock" && (player2 == "tesoura" || player2 == "pedra"))
+    ? "rajesh"
+    : "sheldon";
 }
 
 const readline = require("readline").createInterface({
@@ -25,14 +20,8 @@ readline.question(
   (moves) => {
     const playersMoves = moves.split(" ").splice(1);
     playersMoves.forEach((move, player) => {
-      if (player % 2 === 0) {
-        const gameResult = jokenpo(move, playersMoves[player + 1]);
-        gameResult === "player1"
-          ? console.log("rajesh")
-          : gameResult === "player2"
-          ? console.log("sheldon")
-          : console.log("empate");
-      }
+      if (player % 2 === 0)
+        console.log(jokenpo(move, playersMoves[player + 1]));
     });
 
     readline.close();
