@@ -12,7 +12,7 @@ public class SimpleProduct {
         System.out.println("Insert second argument: ");
         int secondArg = scanner.nextInt();
 
-        int PROD = firstArg*secondArg;
+        int PROD = firstArg * secondArg;
         System.out.println("Product: " + PROD);
 
     }
