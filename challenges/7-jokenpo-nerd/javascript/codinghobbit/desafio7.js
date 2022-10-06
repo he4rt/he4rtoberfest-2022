@@ -1,6 +1,6 @@
 function jokenpo(player1, player2) {
   return (player1 == player2
-    ? "emapte"
+    ? "empate"
     : player1 == "tesoura" && player2 == "papel") ||
     (player1 == "tesoura" && player2 == "lagarto") ||
     (player1 == "papel" && player2 == "pedra") ||
