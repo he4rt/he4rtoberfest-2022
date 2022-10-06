@@ -1,4 +1,3 @@
-@@ -0,0 +1,23 @@
 # Submissão de Exercicio
 
 **Exercicio:** 1 - Produto Simples
