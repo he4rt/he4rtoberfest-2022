@@ -1,4 +1,3 @@
-@@ -0,0 +1,20 @@
 # Submissão de Exercicio
 
 **Exercicio:** 0 - Hello World
