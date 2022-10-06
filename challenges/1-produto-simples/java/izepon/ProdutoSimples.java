@@ -6,13 +6,13 @@ public class ProdutoSimples {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Digite o valor do produto: ");
-        int  productValue = scanner.nextInt();
+        System.out.print("Digite um número inteiro: ");
+        int  multiplicand = scanner.nextInt();
 
-        System.out.print("Digite a quantidade: " );
-        int productQuantity = scanner.nextInt();
+        System.out.print("Digite um outro número inteiro: ");
+        int multiplier = scanner.nextInt();
 
-        int totalProduct = productValue * productQuantity;
-        System.out.println("Produto: " + totalProduct);
+        int product = multiplicand * multiplier;
+        System.out.println("Produto: " + product);
     }
 }
