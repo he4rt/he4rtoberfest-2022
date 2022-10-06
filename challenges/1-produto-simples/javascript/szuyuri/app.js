@@ -15,9 +15,10 @@ consoleInput.forEach((number, index) => {
     }
 
     if (((index + 1) % 2) != 0) {
+        const PROD = multiply(number, secondNumber)
 
         console.log(
-            `A multiplicação entre ${number} e ${secondNumber} é igual a ${multiply(number, secondNumber)}`
+            `A multiplicação entre ${number} e ${secondNumber} é igual a ${PROD}`
         )
     }
 })
