@@ -13,6 +13,6 @@ public class ProdutoSimples {
         int productQuantity = scanner.nextInt();
 
         int totalProduct = productValue * productQuantity;
-        System.out.println("Valor total do produto: " + totalProduct);
+        System.out.println("Produto: " + totalProduct);
     }
 }
