@@ -16,7 +16,7 @@
 
 Use o comando abaixo: 
 ```bash
-iex "fizzbuzz.exs"
+iex "fizz_buzz.exs"
 ```
 
 ```bash
