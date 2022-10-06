@@ -1,12 +1,12 @@
 # Submissão de Exercicio
 
-**Exercicio:** 4 - FizzBuzz
+**Exercicio:** 1 - Produto Simples
 
 **Nickname:** berutodo
 
 **Nível Técnico:** - Junior -
 
-**Empresa:** -  Nenhuma -
+**Empresa:** Nenhuma 
 
 **Twitter**: https://twitter.com/gabrieIjsx
 
@@ -15,9 +15,8 @@
 
 Use o comando abaixo: 
 ```bash
-iex fizzbuzz.exs
+iex product.exs
 ```
 ```bash
-FizzBuzz.receiveNumber(16)
-FizzBuzz.receiveNumber(20)
+Product.initial(3,10)
 ```

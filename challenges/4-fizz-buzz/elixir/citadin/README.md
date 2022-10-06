@@ -1,12 +1,12 @@
 # Submissão de Exercicio
 
-**Exercicio:** 2 - Idade em dias
+**Exercicio:** 4 - Fizz-Buzz
 
 **Nickname:** rodrigocitadin
 
 **Nível Técnico:** - Estudante -
 
-**Empresa:** - Em busca -
+**Empresa:** - Me contratem prf! -
 
 **Twitter**: https://twitter.com/rodrigocitadin1
 
@@ -16,8 +16,11 @@
 
 Use o comando abaixo: 
 ```bash
-iex "idade_em_dias.exs"
+iex "fizz_buzz.exs"
 ```
+
 ```bash
-iex> Challenge.idade_em_dias arg
+iex> Challenge.fizz_buzz arg
 ```
+
+A função `Enum.each` do elixir retorna um atom `:ok` no final, não leve em consideração...
