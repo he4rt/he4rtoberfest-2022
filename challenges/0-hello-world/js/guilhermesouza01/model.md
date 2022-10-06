@@ -17,5 +17,7 @@
 
 Use o comando abaixo: 
 ```
+É necessário que tenha o node.js instalado na maquina.
+
 node helloWorld.js
 ```
