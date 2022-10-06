@@ -4,9 +4,12 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-        Console.WriteLine("Digite um numero: ");
-        if (!int.TryParse(Console.ReadLine(), out int x)) throw new ArgumentException("parâmetro inválido.");
-        Console.WriteLine(Dias.Calc(x));
+        while (true)
+        {
+            Console.WriteLine("Digite um numero: ");
+            if (!int.TryParse(Console.ReadLine(), out int x)) throw new ArgumentException("parâmetro inválido.");
+            Console.WriteLine(Dias.Calc(x));
+        }
     }
     public static class Dias
     {
