@@ -50,26 +50,3 @@ public class TiposDeTriangulo {
   }
 
 }
-
-// se A≥B+C,
-// apresente a mensagem:
-// NAO FORMA
-// TRIANGULO se A²=B²+C²,
-// apresente a mensagem:
-// TRIANGULO RETANGULO
-// se A²>B²+C²,
-// apresente a mensagem:
-// TRIANGULO OBTUSANGULO
-// se A²<B²+C²,
-// apresente a mensagem:
-// TRIANGULO ACUTANGULO
-// se os
-// três lados
-// forem iguais, apresente
-// a mensagem:
-// TRIANGULO EQUILATERO
-// se apenas
-// dois dos
-// lados forem iguais,
-// apresente a mensagem:
-// TRIANGULO ISOSCELES
