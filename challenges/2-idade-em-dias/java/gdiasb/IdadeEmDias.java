@@ -17,7 +17,7 @@ public class IdadeEmDias {
     int quantidadeMeses = (idadeDias % diasDoAno) / diasDoMes;
     int quantidadeDias = ((idadeDias % diasDoAno) % diasDoMes);
 
-    System.out.println(quantidadeAnos + " ano(s) " + quantidadeMeses + " mes(es) e " + quantidadeDias + " dia(s)");
+    System.out.println(quantidadeAnos + " ano(s), " + quantidadeMeses + " mes(es) e " + quantidadeDias + " dia(s)");
 
   }
 }
