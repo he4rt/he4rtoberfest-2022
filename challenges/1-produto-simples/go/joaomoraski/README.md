@@ -13,7 +13,7 @@
 
 **Dificuldade de Resolução:** - Baixa -
 
-**Comentários:** Testes
+**Comentários:** Não sabia como que usava argumentos na linha de comando em Go, aprendi agora.
 
 **Como rodar o desafio**: 
 
