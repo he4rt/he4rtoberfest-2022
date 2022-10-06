@@ -1,8 +1,8 @@
 const helloWorld = ['H', 'e', 'l', 'l', 'o', ' ', 'W', 'o', 'r', 'l', 'd']
 
 let str = ''
-helloWorld.forEach(e => {
-  str += e
+helloWorld.forEach(letter => {
+  str += letter
 })
 
 console.log(str)
