@@ -1,0 +1,15 @@
+C:\dev\my_projects\he4rtoberfest-2022\challenges\0-hello-world\c#\marcosferreira17\challengezero\bin\Debug\net6.0\challengezero.exe
+C:\dev\my_projects\he4rtoberfest-2022\challenges\0-hello-world\c#\marcosferreira17\challengezero\bin\Debug\net6.0\challengezero.deps.json
+C:\dev\my_projects\he4rtoberfest-2022\challenges\0-hello-world\c#\marcosferreira17\challengezero\bin\Debug\net6.0\challengezero.runtimeconfig.json
+C:\dev\my_projects\he4rtoberfest-2022\challenges\0-hello-world\c#\marcosferreira17\challengezero\bin\Debug\net6.0\challengezero.dll
+C:\dev\my_projects\he4rtoberfest-2022\challenges\0-hello-world\c#\marcosferreira17\challengezero\bin\Debug\net6.0\challengezero.pdb
+C:\dev\my_projects\he4rtoberfest-2022\challenges\0-hello-world\c#\marcosferreira17\challengezero\obj\Debug\net6.0\challengezero.csproj.AssemblyReference.cache
+C:\dev\my_projects\he4rtoberfest-2022\challenges\0-hello-world\c#\marcosferreira17\challengezero\obj\Debug\net6.0\challengezero.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\my_projects\he4rtoberfest-2022\challenges\0-hello-world\c#\marcosferreira17\challengezero\obj\Debug\net6.0\challengezero.AssemblyInfoInputs.cache
+C:\dev\my_projects\he4rtoberfest-2022\challenges\0-hello-world\c#\marcosferreira17\challengezero\obj\Debug\net6.0\challengezero.AssemblyInfo.cs
+C:\dev\my_projects\he4rtoberfest-2022\challenges\0-hello-world\c#\marcosferreira17\challengezero\obj\Debug\net6.0\challengezero.csproj.CoreCompileInputs.cache
+C:\dev\my_projects\he4rtoberfest-2022\challenges\0-hello-world\c#\marcosferreira17\challengezero\obj\Debug\net6.0\challengezero.dll
+C:\dev\my_projects\he4rtoberfest-2022\challenges\0-hello-world\c#\marcosferreira17\challengezero\obj\Debug\net6.0\refint\challengezero.dll
+C:\dev\my_projects\he4rtoberfest-2022\challenges\0-hello-world\c#\marcosferreira17\challengezero\obj\Debug\net6.0\challengezero.pdb
+C:\dev\my_projects\he4rtoberfest-2022\challenges\0-hello-world\c#\marcosferreira17\challengezero\obj\Debug\net6.0\challengezero.genruntimeconfig.cache
+C:\dev\my_projects\he4rtoberfest-2022\challenges\0-hello-world\c#\marcosferreira17\challengezero\obj\Debug\net6.0\ref\challengezero.dll
