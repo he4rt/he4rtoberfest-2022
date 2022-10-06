@@ -1,5 +1,5 @@
 const valor1 = Number(process.argv.slice(2, 3));
-const valor2 = Number(process.argv.slice(3, 2));
+const valor2 = Number(proces.argv.slice(3, 2));
 const produto = produtoSimples(valor1, valor2);
 
 console.log(`produto: ${produto}`);
