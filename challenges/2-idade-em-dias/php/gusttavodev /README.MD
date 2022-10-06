@@ -16,5 +16,5 @@
 
 Execute o comando abaixo: 
 ```bash
-php idade-em-dias.php 18
+php app.php 18
 ```
