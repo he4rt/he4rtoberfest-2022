@@ -86,12 +86,12 @@ fn parse_agr_to_float(arg: Option<&String>) -> f32{
 fn print_types(triangle: Triangle){    
     triangle.get_type().iter().for_each(|x| 
         match x  {
-            Type::RECTANGLE => println!("RECTANGLE"),
-            Type::OBTUSE => println!("OBTUSE"),
-            Type::ACUTE => println!("ACUTE"),
-            Type::EQUILATERAL => println!("EQUILATERAL"),
-            Type::ISOSCELES => println!("ISOSCELES"),
-            Type::INVALID => println!("INVALID")
+            Type::RECTANGLE => println!("TRIANGULO RETANGULO"),
+            Type::OBTUSE => println!("TRIANGULO OBTUSANGULO"),
+            Type::ACUTE => println!("TRIANGULO ACUTANGULO"),
+            Type::EQUILATERAL => println!("TRIANGULO EQUILATERO"),
+            Type::ISOSCELES => println!("TRIANGULO ISOSCELES"),
+            Type::INVALID => println!("NAO FORMA TRIANGULO")
         }
     );    
 }
