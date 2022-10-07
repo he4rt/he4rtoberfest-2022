@@ -56,4 +56,5 @@
         (def entrada (strs->floats (str/split (read-line) #"\s"))))
     (def entrada (strs->floats args)))
 
-  (imprime-resultados! (verifica-triangulo (sort > entrada))))
+  (imprime-resultados! (verifica-triangulo (sort > entrada)))
+  :ok)
