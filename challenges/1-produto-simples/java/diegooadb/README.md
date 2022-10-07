@@ -10,7 +10,7 @@
 
 **Dificuldade de Resolução:** - Baixa -
 
-**Como rodar o desafio**:
+**Como rodar o desafio**: 
 
 ````bash
     javac ProdutoSimples.java
