@@ -20,7 +20,7 @@ public class IdadeEmDias {
       day -= month * 30;
 
       System.out.println(year+" ano(s)");
-      System.out.println(month+" mês(s)");
+      System.out.println(month+" mes(s)");
       System.out.println(day+" dia(s) \n");
 
    }
