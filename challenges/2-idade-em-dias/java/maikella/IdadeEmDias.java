@@ -1,9 +1,14 @@
+import java.util.Scanner;
+
 public class IdadeEmDias {
 
    public static void main(String[] args) {
-      toConvert(400);
-      toConvert(800);
-      toConvert(30);
+   
+   Scanner s = new Scanner(System.in);
+   
+   System.out.println("Entre com o dia");
+   
+      toConvert(s.nextInt());
 
    }
 
