@@ -16,7 +16,9 @@
 
 **Como rodar o desafio**: Instale o java
 
-Use o comando abaixo: 
-```bash
+
+Use o comando abaixo para compilar:
+```
 javac Main.java
+java Main
 ```
