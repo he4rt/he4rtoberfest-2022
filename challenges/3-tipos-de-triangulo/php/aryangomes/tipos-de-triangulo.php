@@ -1,9 +1,8 @@
 <?php
 
-if (count($argv) != 3) {
+if (count($argv) != 4) {
     throw new \Exception('Informe três valores.' . PHP_EOL);
 }
-
 $args = array_slice($argv, 1);
 rsort($args);
 $ladoA = (float) $args[0];
