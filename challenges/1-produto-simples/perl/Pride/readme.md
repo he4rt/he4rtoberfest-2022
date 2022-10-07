@@ -12,9 +12,9 @@
 
 **Comentários:** 👻
 
-**Como rodar o desafio**: 
+**Como rodar o desafio**:
 
-Use o comando abaixo: 
+Use o comando abaixo:
 ```bash
-perl 1-produto-simples.pl arg1 arg2
+perl produto-simples.pl arg1 arg2
 ```
