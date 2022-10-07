@@ -1,6 +1,6 @@
 # Submissão de Exercicio
 
-**Exercicio:** 1 - Produto Simples
+**Exercicio:** 2 - Idade em Dias
 
 **Nickname:** peterjpd
 
@@ -12,11 +12,11 @@
 
 **Dificuldade de Resolução:** Baixa
 
-**Comentários:** Não sabia pegar inputs direto da linha de comando com ARGV. foi interessante aprender.
+**Comentários:** Lógica semelhante ao clássico exercício do caixa eletronico.
 
 **Como rodar o desafio**: 
 
 Use o comando abaixo: 
 ```bash
-ruby desafio-1.rb
+ruby desafio-2.rb
 ```
