@@ -1,20 +1,21 @@
-
 <!-- Title -->
 
 <p align="center">
   <h2 align="center">He4rtoberfest 2022</h2>
 </p>
-    
- <!-- ABOUT THE PROJECT -->
 
+<!-- ABOUT THE PROJECT -->
 
 ## Sobre o Projeto
+
 Sejam todos bem vindos a segunda edição do He4rtoberfest, evento da He4rt Developers para incentivar novos desenvolvedores a participar do Hacktoberfest pela DigitalOcean e aprender um pouco mais sobre a ideia do open source.
 
 A ideia da He4rt Developers sempre foi a inclusão dos mais iniciantes na área e iremos focar em trazer essa inclusão para o Hacktoberfest! Se liga:
 
 A ideia se baseia em pegar exercicios de faculdade, desde o mais simples até o mais complexo e fazer nas mais variadas linguagens e assim deixando uma biblioteca gigante de conhecimento para novos universitários mostrando a maior quantidade de jeitos possíveis de resolver o mesmo problema.
+
 ## 
+
 <!-- ROADMAP OF PROJECT -->
 
 ## Exercicios disponíveis
@@ -31,7 +32,7 @@ Na lista abaixo estarão todos os exercicios que iremos aceitar nos nossos pull 
 - [7 - Jokenpo Nerd](./challenges/7-jokenpo-nerd/readme.md)
 
 Caso você queira dar sugestões de desafios, contate algum moderador no [Discord da He4rt](https://discord.gg/he4rt).
-  
+
 <!-- CONTRIBUTING -->
 
 ## Como participar
@@ -99,4 +100,3 @@ git push origin main
 
 - [**Git4Noobs**](https://github.com/danielhe4rt/git4noobs)
 - [**Aprendendo sobre Git e Github**](https://www.youtube.com/watch?v=_LNWekPPS9w)
-

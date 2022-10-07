@@ -2,22 +2,22 @@
 
 **Exercicio:** 0 - Hello World
 
-**Nickname:** calixtocarolina
+**Nickname:** danielhe4rt
 
-**Nível Técnico:** - Estudante e estagiária
+**Nível Técnico:** - Estudante/Estagiário/Júnior/Pleno/Sênior
 
-**Empresa:** - Vou te contar um segredo meia noite
+**Empresa**: Sua Empresa - Nenhuma
 
-**Twitter**: [calistogalillei](https://twitter.com/calistogalillei)
+**Twitter**: [](https://twitter.com/danielhe4rt) (opcional)
 
-**Dificuldade de Resolução:** - Baixa
+**Dificuldade de Resolução:** - Baixa/Média/Alta
 
-**Comentários:** Eu amo dizer olá pro mundo então eu gostei
+**Comentários:** Nesse desafio eu achei que... (opcional)
 
 **Como rodar o desafio**: 
 
 Use o comando abaixo: 
 
 ```bash
-console.log('Olá, mundo!');
+php helloworld.php argv1 argv2 argv3
 ```
