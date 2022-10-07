@@ -13,8 +13,8 @@ const [A, B, C] = numbers
 const validates = {
   notTriangle: A >= B + C,
   isRectangleTriangle: A ** 2 === B ** 2 + C ** 2,
-  isObtusangleTriangle: A ** 2 >B ** 2 + C ** 2,
-  isShortCutTriangle: A ** 2 < B ** 2+ C ** 2,
+  isObtusangleTriangle: A ** 2 > B ** 2 + C ** 2,
+  isShortCutTriangle: A ** 2 < B ** 2 + C ** 2,
   isEquilateralTriangle: A === B && A == C && B == C,
   isIsoscelesTriangle: A === B || B === C,
 }
