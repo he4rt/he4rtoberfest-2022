@@ -34,12 +34,12 @@ public enum Arma {
 
     private final String symbol;
 
-    public Arma(String symbol) {
+    Arma(String symbol) {
         this.symbol = symbol;
     }
 
-    public static Arma get(String symbol) {
-        return lookup.get(symbol);
+    public String getSymbol() {
+        return symbol;
     }
 
     public abstract boolean vence(Arma arma);
