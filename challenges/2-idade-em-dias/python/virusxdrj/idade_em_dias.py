@@ -3,8 +3,8 @@ from sys import argv
 
 def days_to_years(days: int) -> None:
 
-    years: int = days // 360
-    days: int = days % 360
+    years: int = days // 365
+    days: int = days % 365
 
     months: int = days // 30
     days: int = days % 30
