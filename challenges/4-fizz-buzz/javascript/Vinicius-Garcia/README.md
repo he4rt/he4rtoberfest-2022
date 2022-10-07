@@ -1,6 +1,6 @@
 # Submissão de Exercicio
 
-**Exercicio:** 3 - Tipos de triângulo
+**Exercicio:** 4 - FIZZ BUZZ
 
 **Nickname:** Vinicius-Garcia
 
@@ -10,14 +10,12 @@
 
 **Twitter**: https://twitter.com/Vinicius-Garcia
 
-**Dificuldade de Resolução:** - Baixa
-
-**Comentários:**
+**Dificuldade de Resolução:** - Baixa -
 
 **Como rodar o desafio**:
 
 Use o comando abaixo:
 
 ```bash
-node index.js argv1 argv2 argv3
-```
+node index.js argumento
+``` 
