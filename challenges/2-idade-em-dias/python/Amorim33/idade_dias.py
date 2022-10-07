@@ -1,5 +1,7 @@
-n, m = map(int, input().split())
+import math
 
-PROD = n * m
+n = int(input())
 
-print("produto: ", PROD)
+print(int(n/365), "ano(s)")
+print(int((n%365)/30), "mes(es)")
+print(int((n%365)%30), "dia(s)")
