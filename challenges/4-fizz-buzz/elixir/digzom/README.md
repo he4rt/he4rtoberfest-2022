@@ -15,3 +15,13 @@
 **Como rodar o desafio**:
 
 Use os comandos abaixo:
+
+```bash
+elixir fizz_buzz.exs argv1
+```
+
+Ex.:
+
+```bash
+elixir fizz_buzz.exs 10
+```
