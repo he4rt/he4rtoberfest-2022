@@ -21,7 +21,7 @@ public class IdadeEmDias {
 
       System.out.println(year+" ano(s)");
       System.out.println(month+" mes(es)");
-      System.out.println(day+" dia(s) \n");
+      System.out.println(day+" dia(s)");
 
    }
 
