@@ -19,7 +19,7 @@ else:
         print('TRIANGULO OBTUSANGULO')
     elif a ** 2 < (b ** 2) + (c ** 2):
         print('TRIANGULO ACUTANGULO')
-if a == b == c:
-    print('TRIANGULO EQUILATERO')
-if a == b != c or a != b == c or a == c != b:
-    print('TRIANGULO ISOSCELES')
+    if a == b == c:
+        print('TRIANGULO EQUILATERO')
+    elif a == b  or c == b:
+        print('TRIANGULO ISOSCELES')
