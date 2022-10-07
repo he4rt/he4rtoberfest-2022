@@ -2,7 +2,8 @@
 
 **Exercicio:** 2 - Idade em dias
 
-**Nickname:** matheusth
+**Nickname:** Fernando Andrade
+
 **Nível Técnico:** Junior
 
 **Empresa:** - Agrotools
