@@ -11,14 +11,12 @@ public class FizzBuzz {
     Integer entradaNumero = scanner.nextInt();
     scanner.close();
   
-    System.out.println(15%5);
-
     for (int i = 1; i <= entradaNumero; i++) {
    
       if (i % 3 == 0 && i % 5 != 0) {
         System.out.println("Fizz");
       }
-      else if (i % 5 == 0 && i % 5 != 0) {
+      else if (i % 5 == 0 && i % 3 != 0) {
         System.out.println("Buzz");
       }
       else if (i % 3 == 0 && i % 5 == 0) {
