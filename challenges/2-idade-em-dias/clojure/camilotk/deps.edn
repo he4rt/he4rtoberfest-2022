@@ -1,0 +1,9 @@
+{:paths   ["src" "test"]
+ :deps    {org.clojure/clojure {:mvn/version "1.11.1"}}
+ :aliases {:run {:main-opts ["-m" "core"]}
+           :test {:extra-deps {io.github.cognitect-labs/test-runner {:git/url "https://github.com/cognitect-labs/test-runner.git"
+                                                                     :git/sha     "705ad25bbf0228b1c38d0244a36001c2987d7337"}}
+                  :main-opts ["-m" "cognitect.test-runner"]}
+           :uberjar {:extra-deps {uberdeps/uberdeps {:mvn/version "0.1.4"}}
+                     :main-opts  ["-m" "uberdeps.uberjar" "--target" "target/idadedias.jar"]}}}
+
