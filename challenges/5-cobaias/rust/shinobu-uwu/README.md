@@ -1,22 +1,20 @@
 # Submissão de Exercicio
 
-**Exercicio:** 0 - Hello World
+**Exercicio:** 5 - Cobaias
 
-**Nickname:** danielhe4rt
+**Nickname:** Shinobu
 
-**Nível Técnico:** - Estudante/Estagiário/Junior/Pleno/Senior -
+**Nível Técnico:** - Estagiário
 
-**Empresa:** - Sua Empresa / Nenhuma -
+**Empresa:** - senhasegura
 
-**Twitter**: https://twitter.com/danielhe4rt (opcional)
+**Twitter**: https://twitter.com/Shinobu_uwu
 
-**Dificuldade de Resolução:** - Baixa/Média/Alta -
-
-**Comentários:** Nesse desafio eu achei que ... (Opcional)
+**Dificuldade de Resolução:** - Baixa
 
 **Como rodar o desafio**: 
 
 Use o comando abaixo: 
 ```bash
-php helloworld.php argv1 argv2 argv3
+cargo run
 ```
