@@ -3,7 +3,7 @@
 ### Passando os argumentos na chamada
 Entre na pasta do desafio no seu terminal e rode o seguinte comando: 
 ```bash
- $  clj -M:run 10 20
+ $  clj -M:run 6.0 6.0 10.0
  ```
 E em seguida terá o resultado da operação.
 
