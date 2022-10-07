@@ -16,6 +16,7 @@ fn main() {
 
     if a >= b + c {
         println!("NAO FORMA TRIANGULO");
+        return;
     }
 
     if a.powf(2.0) == b.powf(2.0) + c.powf(2.0) {
@@ -32,9 +33,7 @@ fn main() {
 
     if a == b && b == c && a == c {
         println!("TRIANGULO EQUILATERO");
-    }
-
-    if a == b || a == c || b == c {
+    } else if a == b || a == c || b == c {
         println!("TRIANGULO ISOSCELES");
     }
 }
