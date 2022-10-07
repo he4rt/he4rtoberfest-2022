@@ -21,5 +21,5 @@ else:
         print('TRIANGULO ACUTANGULO')
 if a == b == c:
     print('TRIANGULO EQUILATERO')
-if a == b != c or A != b == c or a == c != b:
+if a == b != c or a != b == c or a == c != b:
     print('TRIANGULO ISOSCELES')
