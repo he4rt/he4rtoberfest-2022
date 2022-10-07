@@ -5,7 +5,10 @@ using namespace std;
 void typeOfTriangles(float a, float b, float c)
 {
   if (a >= (b + c) || b >= (a + c) || c >= (b + a))
+  {
     cout << "NAO FORMA TRIANGULO" << endl;
+    return;
+  }
   else if (pow(a, 2) == (pow(b, 2) + pow(c, 2)) || pow(b, 2) == (pow(a, 2) + pow(c, 2)) || pow(c, 2) == (pow(a, 2) + pow(b, 2)))
     cout << "TRIANGULO RETANGULO" << endl;
   else if (pow(a, 2) > (pow(b, 2) + pow(c, 2)) || pow(b, 2) > (pow(a, 2) + pow(c, 2)) || pow(c, 2) > (pow(a, 2) + pow(b, 2)))
@@ -23,6 +26,7 @@ int main()
 
   float a, b, c;
 
+  cout << "Digite os lados do triangulo" << endl;
   cin >> a >> b >> c;
 
   typeOfTriangles(a, b, c);
