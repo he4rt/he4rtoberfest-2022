@@ -1,0 +1,1 @@
+console.log("Até mais, e obrigado pelos peixes!")
