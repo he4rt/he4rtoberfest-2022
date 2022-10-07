@@ -26,11 +26,12 @@ public class TiposDeTriangulo {
 
         if(A >= B + C) System.out.println("Não forma triangulo");
 
-        if(pow(A, 2) == pow(B, 2) + pow(C, 2)) System.out.println("Triangulo Retangulo");
+        else
+            if(pow(A, 2) == pow(B, 2) + pow(C, 2)) System.out.println("Triangulo Retangulo");
 
-        if(pow(A, 2) > pow(B, 2) + pow(C, 2)) System.out.println("Triangulo Obtusangulo");
+            else if(pow(A, 2) > pow(B, 2) + pow(C, 2)) System.out.println("Triangulo Obtusangulo");
 
-        if(pow(A, 2) < pow(B, 2) + pow(C, 2)) System.out.println("Triangulo Acutangulo");
+            else if(pow(A, 2) < pow(B, 2) + pow(C, 2)) System.out.println("Triangulo Acutangulo");
 
         if(A == B  && B == C) System.out.println("Triangulo Equilatero");
 
