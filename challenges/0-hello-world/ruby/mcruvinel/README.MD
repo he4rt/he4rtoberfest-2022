@@ -2,21 +2,21 @@
 
 **Exercicio:** 0 - Hello World
 
-**Nickname:** Grubba27
+**Nickname:** mcruvinel
 
-**Nível Técnico:** - 
+**Nível Técnico:** - Dev Jr
 
-**Empresa:** - Meteor Software
+**Empresa:** - LuizaLabs
 
-**Twitter**: https://twitter.com/gab_grubba
+**Twitter**: https://twitter.com/spokstresse
 
 **Dificuldade de Resolução:** - Baixa
 
-**Comentários:** -/-
+**Comentários:** ---
 
 **Como rodar o desafio**:
 
 Use o comando abaixo:
 ```bash
-ts-node index.ts
+ruby desafio-0.rb
 ```
