@@ -10,7 +10,7 @@
 
 **Twitter**: https://twitter.com/biantris_
 
-**Dificuldade de Resolução:** Média
+**Dificuldade de Resolução:** Baixa
 
 **Comentários:** 
 
