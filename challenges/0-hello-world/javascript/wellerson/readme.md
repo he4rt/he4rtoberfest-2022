@@ -17,5 +17,5 @@
 Use o comando abaixo:
 
 ```bash
-node index.js args
+node index.js
 ```
