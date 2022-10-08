@@ -18,10 +18,16 @@ const readline = require("readline").createInterface({
 readline.question(
   "Jogue, Ex. 3 spock pedra tesoura tesoura papel lagarto: ",
   (moves) => {
+    const totalMoves = moves.split(" ")[0]
     const playersMoves = moves.split(" ").splice(1);
+    if (totalMoves != playersMoves.length/2){
+      console.log("Digite a quantidade correta de jogos.")
+      readline.close()
+      return 
+    }
     playersMoves.forEach((move, player) => {
       if (player % 2 === 0)
-        console.log(jokenpo(move, playersMoves[player + 1]));
+        console.log(jokenpo(move.toLowerCase(), playersMoves[player + 1].toLocaleLowerCase()));
     });
 
     readline.close();
