@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner scannerObj = new Scanner(System.in)   ;
+        Scanner scannerObj = new Scanner(System.in);
 
         System.out.println("Valor em segundos: ");
         int seconds = scannerObj.nextInt();
