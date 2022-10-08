@@ -6,9 +6,9 @@
 
 **Nível Técnico:** - Estudante -
 
-**Empresa:** - Sua Empresa / Nenhuma -
+**Empresa:** - Tecsaúde Engenharia Clínica -
 
-**Twitter**: https://twitter.com/danielhe4rt (opcional)
+**Twitter**: https://twitter.com/hewertonsoares (opcional)
 
 **Dificuldade de Resolução:** - Média -
 
