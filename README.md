@@ -29,7 +29,7 @@ Na lista abaixo estarão todos os exercicios que iremos aceitar nos nossos pull 
 - [5 - Cobaias](./challenges/5-cobaias/readme.md)
 - [6 - Converter Segundos](./challenges/6-converter-segundos/readme.md)
 - [7 - Jokenpo Nerd](./challenges/7-jokenpo-nerd/readme.md)
-- [8 - Contador de Nucleotídeos](./challenges/8-contador-nucleotideos/readme.md)
+- [8 - Contador de Nucleotídeos (EXTRA)](./challenges/8-contador-nucleotideos/readme.md)
 
 Caso você queira dar sugestões de desafios, contate algum moderador no [Discord da He4rt](https://discord.gg/he4rt).
   
