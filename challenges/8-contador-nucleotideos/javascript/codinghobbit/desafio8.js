@@ -14,7 +14,6 @@ readline.question("Sêquencia de DNA: ", (dna) => {
       return;
     }
     invalidSeq = true;
-    readline.close();
     return;
   });
 
