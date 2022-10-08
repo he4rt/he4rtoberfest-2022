@@ -17,5 +17,5 @@
 ````
 
 ````bash
-    java IdadeDias arg1
+    java IdadeDias <idade-em-dias>
 ````
