@@ -19,5 +19,5 @@
 Use o comando abaixo: 
 ```bash
 go test
-go run tiposTriangulo.go arg1 arg2 arg 3
+go run fizzBuzz.go arg1
 ```
