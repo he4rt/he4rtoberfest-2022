@@ -2,19 +2,21 @@
 
 **Exercicio:** 1 - Produto Simples
 
-**Nickname:** 'Pride
+**Nickname:** camilealheiro
 
-**Nível Técnico:** - Procrastinador Pleno -
+**Nível Técnico:** - Estudante
 
 **Empresa:** - Nenhuma -
 
+**Twitter**
+
 **Dificuldade de Resolução:** - Baixa -
 
-**Comentários:** 👻
+**Comentários:** 
 
-**Como rodar o desafio**: 
+**Como rodar o desafio**: No terminal
 
 Use o comando abaixo: 
 ```bash
-perl 1-produto-simples.pl arg1 arg2
+./ProdutoSimples.exe
 ```
