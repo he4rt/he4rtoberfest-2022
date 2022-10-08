@@ -17,5 +17,5 @@
 ````
 
 ````bash
-    java ProdutoSimples
+    java ProdutoSimples arg1 arg2 arg3...
 ````

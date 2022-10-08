@@ -5,6 +5,6 @@ public class ProdutoSimples {
             int intValue = Integer.parseInt(arg);
             prod *= intValue;
         }
-        System.out.println(prod);
+        System.out.printf("produto: %d", prod);
     }
 }
