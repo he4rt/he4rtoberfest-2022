@@ -5,18 +5,19 @@ $ratos = 0;
 $sapos = 0;
 $total = 0;
 
-$casos = (int)readline();
+$casos = (int)readline("Digite o número de casos de teste: ");
+echo "Digite a quantidade de animais e o tipo conforme o exemplo: 10 C\n\n";
 
 for ($i = 0; $i < $casos; $i++) {
-    $caso = explode(' ', readline());
+    $caso = explode(' ', readline($i + 1 . "- "));
     $quantia = (int)$caso[0];
     $tipo = $caso[1];
 
-    if ($tipo == 'C') {
+    if (($tipo == 'C') || ($tipo == 'c')) {
         $coelhos += $quantia;
-    } else if ($tipo == 'R') {
+    } else if (($tipo == 'R') || ($tipo == 'r')) {
         $ratos += $quantia;
-    } else if ($tipo == 'S') {
+    } else if (($tipo == 'S') || ($tipo == 's')) {
         $sapos += $quantia;
     }
 
