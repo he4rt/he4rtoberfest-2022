@@ -4,20 +4,22 @@ const readline = require("readline").createInterface({
 });
 
 readline.question("Sêquencia de DNA: ", (dna) => {
-  let dnaArray = dna.toUpperCase().split("");
-  let dnaCounter = { A: 0, C: 0, G: 0, T: 0 };
+  const dnaArray = dna.toUpperCase().split("");
+  const dnaCounter = { A: 0, C: 0, G: 0, T: 0 };
+  let invalidSeq = false;
 
   dnaArray.forEach((nucleotide) => {
-    if (dnaCounter.hasOwnProperty(nucleotide)) dnaCounter[nucleotide]++;
-    else {
-      console.log("Sequência inválida!");
-      readline.close();
+    if (dnaCounter.hasOwnProperty(nucleotide)) {
+      dnaCounter[nucleotide]++;
       return;
     }
+    invalidSeq = true;
+    readline.close();
+    return;
   });
 
   const dnaString = JSON.stringify(dnaCounter).slice(1, -1);
-  console.log(dnaString);
+  console.log(!invalidSeq ? dnaString : "Sequência inválida!");
 
   readline.close();
 });
