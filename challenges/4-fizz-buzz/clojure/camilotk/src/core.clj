@@ -26,4 +26,5 @@
         (flush)
         (def numero (Integer/parseInt (read-line)))))
 
-  (imprime! (map fizz-buzz (range 1 (inc numero)))))
+  (imprime! (map fizz-buzz (range 1 (inc numero))))
+  :ok)
