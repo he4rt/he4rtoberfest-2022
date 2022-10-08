@@ -10,7 +10,7 @@
 
 **Twitter**: Nenhum
 
-**Dificuldade de Resolução:** - Baixa/Média/Alta -
+**Dificuldade de Resolução:** - Baixa
 
 **Comentários:** 
 
