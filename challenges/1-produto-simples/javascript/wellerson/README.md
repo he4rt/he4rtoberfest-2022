@@ -1,22 +1,20 @@
 # Submissão de Exercicio
 
-**Exercicio:** 1 - Produto Simples
+**Exercicio:** 2 - Produto Simples
 
-**Nickname:** heltonp21
+**Nickname:** wellerson
 
-**Nível Técnico:** - Estudante -
+**Nível Técnico:** - Pleno
 
-**Empresa:** - Nenhuma -
+**Empresa:** - Provi
 
-**Twitter**: https://twitter.com/heltonp21
+**Twitter** - https://twitter.com/wellers0n_
 
-**Dificuldade de Resolução:** - Baixa -
+**Dificuldade de Resolução:** - Baixa
 
-**Comentários:**
-
-**Como rodar o desafio**: 
+**Como rodar o desafio**:
 
 Use o comando abaixo: 
 ```bash
-node produtoSimples.js argv1 argv2
+node index.js args1 args2
 ```
