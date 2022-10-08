@@ -1,6 +1,6 @@
 # Submissão de Exercicio
 
-**Exercicio:** 4 - FIZZ BUZZ
+**Exercicio:** 6 - Converter em Segundos
 
 **Nickname:** wellerson
 
