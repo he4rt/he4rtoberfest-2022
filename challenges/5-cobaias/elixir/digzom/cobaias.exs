@@ -2,7 +2,7 @@ defmodule Cobaias do
   def calculate_amount(data) do
     data
     |> Enum.map(&take_quantity/1)
-    |> Enum.reduce(fn qnt, sum -> qnt + sum end)
+    |> Enum.reduce(0, fn qnt, sum -> qnt + sum end)
   end
 
   defp format_data(data) do
