@@ -2,19 +2,21 @@
 
 **Exercicio:** 1 - Produto Simples
 
-**Nickname:** 'Pride
+**Nickname:** carneiroDotDev
 
-**Nível Técnico:** - Procrastinador Pleno -
+**Nível Técnico:** - Senior -
 
 **Empresa:** - Nenhuma -
 
+**Twitter**: https://twitter.com/carneiroDotDev 
+
 **Dificuldade de Resolução:** - Baixa -
 
-**Comentários:** 👻
+**Comentários:** Nesse desafio eu achei tranquilo.
 
 **Como rodar o desafio**: 
 
 Use o comando abaixo: 
 ```bash
-perl 1-produto-simples.pl arg1 arg2
+node app.js
 ```
