@@ -8,7 +8,7 @@
 
 **Empresa:** - Tecsaúde Engenharia Clínica -
 
-**Twitter**: https://twitter.com/hewertonsoares (opcional)
+**Twitter**: https://twitter.com/hewertonsoares
 
 **Dificuldade de Resolução:** - Baixa -
 
