@@ -1,6 +1,6 @@
 # Submissão de Exercicio
 
-**Exercicio:** 3 - Fizz Buzz
+**Exercicio:** 4 - Fizz Buzz
 
 **Nickname:** raffreitas
 
