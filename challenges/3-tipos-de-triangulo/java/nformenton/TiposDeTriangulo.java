@@ -24,7 +24,10 @@ public class TiposDeTriangulo {
         System.out.println("Entrada: " + A + " " + B + " " + C );
         System.out.println("\n");
 
-        if(A >= B + C) System.out.println("Não forma triangulo");
+        if(A >= B + C){
+            System.out.println("Não forma triangulo");
+            return;
+        } 
 
         else
             if(pow(A, 2) == pow(B, 2) + pow(C, 2)) System.out.println("Triangulo Retangulo");
