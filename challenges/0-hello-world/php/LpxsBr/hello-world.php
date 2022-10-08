@@ -7,7 +7,6 @@ function hw($name = ''){
     return $phrase;
 
 }
-
 echo hw($argv[1]);
 
 ?>
