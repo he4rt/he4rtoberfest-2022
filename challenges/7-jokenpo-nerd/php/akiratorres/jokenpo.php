@@ -11,9 +11,9 @@ $spock = ['tesoura', 'pedra'];
 $casos = (int)readline("Digite o número de testes de caso: ");
 
 for ($i = 0; $i < $casos; $i++) {
-    $escolhas = explode(" " , readline("Jogo número" . $i+1 . ": "));
-    $rajesh = $escolhas[0];
-    $sheldon = $escolhas[1];
+    $escolhas = explode(" " , readline("Jogo número " . $i+1 . ": "));
+    $rajesh = strtolower($escolhas[0]);
+    $sheldon = strtolower($escolhas[1]);
 
     if ($rajesh == $sheldon) {
         $result = "empate";
