@@ -17,5 +17,5 @@
 ````
 
 ````bash
-    java ConverterSegundos
+    java ConverterSegundos <segundos>
 ````
