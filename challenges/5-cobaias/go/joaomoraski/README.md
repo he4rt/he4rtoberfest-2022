@@ -10,7 +10,7 @@
 
 **Twitter**: https://twitter.com/moraskinho
 
-**Dificuldade de Resolução:** - Média -
+**Dificuldade de Resolução:** - Baixa -
 
 **Comentários:**
 
@@ -19,5 +19,5 @@
 Use o comando abaixo: 
 ```bash
 go test
-go run tiposTriangulo.go arg1 arg2 arg 3
+go run cobaias.go arg1
 ```
