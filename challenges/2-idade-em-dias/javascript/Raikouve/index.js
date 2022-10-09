@@ -1,3 +1,5 @@
+const arg = process.argv[2];
+
 function calculateAgeByDays(totalDays) {
   const FULL_YEAR = 365;
   const FULL_MONTH = 30;
@@ -18,4 +20,4 @@ function calculateAgeByDays(totalDays) {
   return result;
 }
 
-console.log(calculateAgeByDays(3000));
+console.log(calculateAgeByDays(arg));
