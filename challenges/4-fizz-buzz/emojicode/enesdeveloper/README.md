@@ -1,4 +1,4 @@
-Exercicio: 0 - Hello World
+Exercicio: 4 - Fizz Buzz
 
 Nickname: enes
 
@@ -13,7 +13,8 @@ Dificuldade de Resolução: - Alta -
 Comentários: 🤓🍇
 
 Como rodar o desafio: 
+```Antes de compilar, altere no código o valor de X pelo valor desejado.```
 
 Use o comando abaixo:
 
-```emojicodec hello.🍇 && ./hello```
+```emojicodec fizz-buzz.🍇 && ./fizz-buzz```
