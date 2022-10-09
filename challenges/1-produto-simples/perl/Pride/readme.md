@@ -16,5 +16,5 @@
 
 Use o comando abaixo: 
 ```bash
-perl produto-simples.pl arg1 arg2
+perl 1-produto-simples.pl arg1 arg2
 ```
