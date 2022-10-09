@@ -12,7 +12,6 @@
 
 **Dificuldade de Resolução:** - Baixa
 
-
 **Como rodar o desafio**: 
 
 Use o comando abaixo: 
