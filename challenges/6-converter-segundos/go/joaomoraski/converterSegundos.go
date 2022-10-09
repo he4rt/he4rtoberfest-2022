@@ -29,5 +29,5 @@ func main() {
 		log.Fatalf("Não foi possivel converter '%v' para um inteiro", os.Args[1])
 	}
 	res := ConverterSegundos(totalSegundos)
-	fmt.Printf("%v:%v:%v", int(res[0]), int(res[1]), int(res[2]))
+	fmt.Printf("%v:%v:%v\n", int(res[0]), int(res[1]), int(res[2]))
 }
