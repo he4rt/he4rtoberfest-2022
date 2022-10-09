@@ -14,9 +14,9 @@ public class TiposDeTriangulo{
         Arrays.sort(ladosTriangulo, Collections.reverseOrder());
         System.out.println();
         System.out.print("Entrada: ");
-        for(int i = 0; i < ladosTriangulo.length; i++){
-            System.out.print(ladosTriangulo[i]+ " ");
-        }
+        
+        System.out.println("\n" + ladosTriangulo[0] + "\n" + ladosTriangulo[1] + "\n" + ladosTriangulo[2]);
+        
         System.out.println();
         System.out.println();
         checarTriangulo(ladosTriangulo);
