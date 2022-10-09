@@ -78,11 +78,12 @@ func main() {
 
 	res := Cobaias(cobaias)
 
-	fmt.Printf("Total: %d\n", int(res[0]))
-	fmt.Printf("Total de Coelhos: %d\n", int(res[1]))
-	fmt.Printf("Total de Ratos: %d\n", int(res[2]))
-	fmt.Printf("Total de Sapos: %d\n", int(res[3]))
-	fmt.Printf("Percentual de coelhos: %.2f%%\n", res[4])
-	fmt.Printf("Percentual de ratos: %.2f%%\n", res[5])
-	fmt.Printf("Percentual de sapos: %.2f%%\n", res[6])
+	fmt.Printf("Total: %.0f\n"+
+		"Total de Coelhos: %.0f\n"+
+		"Total de Ratos: %.0f\n"+
+		"Total de Sapos: %.0f\n"+
+		"Percentual de coelhos: %.2f%%\n"+
+		"Percentual de ratos: %.2f%%\n"+
+		"Percentual de sapos: %.2f%%\n",
+		res[0], res[1], res[2], res[3], res[4], res[5], res[6])
 }
