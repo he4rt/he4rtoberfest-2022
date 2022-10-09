@@ -16,7 +16,7 @@ public class TiposTriangulo {
         double sideASquared = Math.pow(sideA, 2);
 
         if (sideA >= (sideB + sideC)) {
-            System.out.println("Não forma quadrado");
+            System.out.println("NÃO FORMA TRIÂNGULO");
             return;
         }
 
