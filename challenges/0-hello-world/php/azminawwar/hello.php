@@ -1,0 +1,4 @@
+<?php
+$🙃="Hello World!";
+echo($🙃);
+?>
