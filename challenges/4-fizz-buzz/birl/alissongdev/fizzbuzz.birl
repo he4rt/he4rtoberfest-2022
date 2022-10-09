@@ -1,0 +1,26 @@
+HORA DO SHOW
+    MONSTRO N;
+    QUE QUE CE QUER MONSTRAO? ("%d", &N);
+    
+    ELE QUE A GENTE QUER? (!N)
+        CE QUER VER ESSA PORRA? ("\nInput is not a number\n");
+    QUE NAO VAI DAR O QUE? (N <= 0)
+        CE QUER VER ESSA PORRA? ("\nInput is not a positive number\n");
+    NAO VAI DAR NAO
+        CE QUER VER ESSA PORRA? ("\nInput: %d\n", N);
+    BIRL
+    
+    MONSTRO I;
+    MAIS QUERO MAIS (I = 1; I <= N; I++)
+        ELE QUE A GENTE QUER? (I % 3 == 0 && I % 5 == 0)
+            CE QUER VER ESSA PORRA? ("FizzBuzz\n");
+        QUE NAO VAI DAR O QUE? (I % 3 == 0)
+            CE QUER VER ESSA PORRA? ("Fizz\n");
+        QUE NAO VAI DAR O QUE? (I % 5 == 0)
+            CE QUER VER ESSA PORRA? ("Buzz\n");
+        NAO VAI DAR NAO
+            CE QUER VER ESSA PORRA? ("%d\n", I);
+        BIRL
+    BIRL
+    BORA CUMPADE 0;
+BIRL
