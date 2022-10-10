@@ -1,0 +1,13 @@
+require:
+  - rubocop-rspec
+  - rubocop-performance
+
+AllCops:
+  NewCops: enable
+
+RSpec:
+  Enabled: true # enable rubocop-rspec cops
+RSpec/DescribeClass:
+  Enabled: false # ignore missing comments on classes
+Bundler/DuplicatedGem:
+  Enabled: false # ignore duplicated gem errors because we will have duplicated gems when dual booting

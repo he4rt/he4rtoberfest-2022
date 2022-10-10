@@ -1,0 +1,2 @@
+PRODUTO_SIMPLES=$(( $1 * $2 ))
+echo $PRODUTO_SIMPLES
