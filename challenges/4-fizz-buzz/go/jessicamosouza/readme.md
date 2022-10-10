@@ -1,6 +1,6 @@
 # Submissão de Exercicio
 
-**Exercicio:** 3 - Tipo de Trinagulo
+**Exercicio:** 4 - Fizz Buzz
 
 **Nickname:** jessicamosouza
 
@@ -10,7 +10,7 @@
 
 **Dificuldade de Resolução:** - Baixa 
 
-**Comentários:** O algoritmo para resolver o problema foi tranquilo, porém a implementação e a implementação com TDD foi um desafio legal :) 
+**Comentários:** Achei que seria mais difícil :') 
 
 **Como rodar o desafio**: 
 
