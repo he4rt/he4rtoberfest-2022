@@ -6,7 +6,7 @@
 
 **Nível Técnico:** - estudante
 
-**Twitter**: https://twitter.com/jessicamosouza
+**Twitter**: https://twitter.com/whatever_jess
 
 **Dificuldade de Resolução:** - Baixa 
 
