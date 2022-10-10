@@ -9,4 +9,4 @@ result += hour < 10 ? "0\(hour)" : "\(hour)"
 result += minute < 10 ? ":0\(minute)" : ":\(minute)"
 result += seconds < 10 ? ":0\(seconds)" : ":\(seconds)"
 
-print("Resultado: \(result)")
+print(result)
