@@ -1,6 +1,6 @@
 # Submissão de Exercicio
 
-**Exercicio:** 1 - Idade em dias
+**Exercicio:** 2 - Idade em dias
 
 **Nickname:** kayehol
 
