@@ -8,4 +8,6 @@ function recebeAnosEmDia(dias: number) {
   );
 }
 
-recebeAnosEmDia(60);
+const diasArgv: number = Number(process.argv.slice(2, 3));
+
+recebeAnosEmDia(diasArgv);

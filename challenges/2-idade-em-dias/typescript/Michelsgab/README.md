@@ -14,5 +14,5 @@
 
 Use o comando abaixo: 
 ```bash
-ts-node IdadeDias.ts
+ts-node IdadeDias.ts argv
 ```
