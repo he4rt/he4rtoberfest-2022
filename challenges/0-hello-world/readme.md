@@ -12,4 +12,11 @@
 
 **Dificuldade de Resolução:** - Baixa
 
+**Comentários:** 
 
+**Como rodar o desafio**: 
+
+Dentro do diretório do projeto, utilize o comando abaixo: 
+```bash
+go run main.go
+```
