@@ -28,11 +28,14 @@ func contarNucleotideo(sequencia string) (map[string]int, string) {
 }
 
 func main() {
-	sequencia := "GATTACA"
+	var sequencia string
+
+	fmt.Printf("\nDigite a seqência de DNA: ")
+	fmt.Scanf("%s", &sequencia)
 
 	nucleotideo, erro := contarNucleotideo(sequencia)
 
-	fmt.Println(sequencia)
+	fmt.Printf("\n%s \n", sequencia)
 
 	if erro != " " {
 		fmt.Println(erro)
