@@ -8,7 +8,7 @@
 
 **Empresa:** Nenhuma
 
-**Twitter**: 
+**Twitter**: ---
 
 **Dificuldade de Resolução:** Baixa
 
