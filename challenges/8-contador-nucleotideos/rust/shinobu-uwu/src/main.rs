@@ -1,7 +1,7 @@
-use std::{collections::HashMap, io::stdin};
+use std::{collections::BTreeMap, io::stdin};
 
 fn main() {
-    let mut nucleotidios = HashMap::new();
+    let mut nucleotidios = BTreeMap::new();
     nucleotidios.insert('A', 0);
     nucleotidios.insert('C', 0);
     nucleotidios.insert('G', 0);
