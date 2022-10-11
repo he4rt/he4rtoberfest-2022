@@ -8,7 +8,7 @@ public class ProdutoSimples {
         String s = sc.nextLine();
         String[] array = s.split(" ");
 
-        System.out.println(Integer.parseInt(array[0]) * Integer.parseInt(array[1]));
+        System.out.println("Produto: " + Integer.parseInt(array[0]) * Integer.parseInt(array[1]));
 
     }
 
