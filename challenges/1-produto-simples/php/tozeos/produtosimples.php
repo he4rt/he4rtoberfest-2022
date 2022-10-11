@@ -1,6 +1,7 @@
 <?php
 
 # PRODUTO SIMPLES
+echo "Digite dois numerais separados por um espaço para realizar a operação." . PHP_EOL;
 
 $input = explode(" ", fgets(STDIN));
 $num1 = (int) $input[0];
