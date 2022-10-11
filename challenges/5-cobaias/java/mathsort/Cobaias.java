@@ -51,6 +51,7 @@ public class Cobaias {
         printPercentage(testSubjects.get("C"), totalTestSubjects);
         System.out.print("Total de sapos: " + testSubjects.get("S") + " - ");
         printPercentage(testSubjects.get("S"), totalTestSubjects);
+        System.out.println();
     }
 
     public static void printPercentage(int number, int total) {

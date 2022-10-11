@@ -1,9 +1,9 @@
 # Submissão de Exercicio
 
 **Exercicio:** 5 - Cobaias
-**Nickname:** codinghobbit
+**Nickname:** mathsort
 **Nível Técnico:** - Estudante
-**Twitter**: https://twitter.com/mathsorts
+**Twitter**: https://twitter.com/mathsort
 **Dificuldade de Resolução:** - Baixa
 
 **Como rodar o desafio**:
