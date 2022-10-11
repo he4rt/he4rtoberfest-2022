@@ -15,9 +15,9 @@
 
 Use o comando abaixo para compilar:
 ```
-javac Cobaias.java
+javac ConverterSegundos.java
 ```
 Em seguida, use o comando abaixo para executar o arquivo compilado:
 ```
-java Cobaias
+java ConverterSegundos
 ```
