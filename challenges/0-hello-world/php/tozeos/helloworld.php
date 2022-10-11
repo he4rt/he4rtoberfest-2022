@@ -2,4 +2,4 @@
 
 # HELLO WORLD
 
-echo "Hello He4rtoberfest";
+echo "Hello He4rtoberfest" . PHP_EOL;
