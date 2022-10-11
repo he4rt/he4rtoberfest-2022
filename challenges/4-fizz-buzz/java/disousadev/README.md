@@ -2,11 +2,11 @@
 
 **Exercicio:** 4 - FizzBuzz
 
-**Nickname:** diegooadb
+**Nickname:** DiSousaDev
 
-**Nível Técnico:** - Estudante -
+**Nível Técnico:** Pleno
 
-**Empresa:** - Nenhuma -
+**Empresa:** CI&T
 
 **Dificuldade de Resolução:** - Baixa -
 
