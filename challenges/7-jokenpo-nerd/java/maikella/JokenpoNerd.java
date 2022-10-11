@@ -1,5 +1,3 @@
-package com.maikella.exer7;
-
 import java.util.NoSuchElementException;
 import java.util.Scanner;
 
