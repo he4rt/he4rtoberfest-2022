@@ -1,6 +1,6 @@
 ﻿class Program
 {
-    const int DiasDoAno = 356;
+    const int DiasDoAno = 365;
     const int DiasDoMes = 30;
     static void Main(string[] args)
     {
@@ -12,6 +12,6 @@
         int meses = (quantidadeDias % DiasDoAno) / DiasDoMes;
         int dias = (quantidadeDias % DiasDoAno) % DiasDoMes;
 
-        Console.WriteLine($"{anos} anos, {meses} meses, {dias} dia(s)");
+        Console.WriteLine($"{anos} anos, {meses} meses, {dias} dias");
     }
 }
