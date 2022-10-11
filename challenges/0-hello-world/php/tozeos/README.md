@@ -2,19 +2,20 @@
 
 **Exercicio:** 0 - Hello World
 
-**Nickname:** akiratorres
+**Nickname:** tozeos
 
 **Nível Técnico:** - Estudante -
 
 **Empresa:** - Nenhuma -
 
-**Twitter**: https://twitter.com/akirafern
+**Twitter**: https://twitter.com/IceIceBbi
 
 **Dificuldade de Resolução:** - Baixa -
 
-**Como rodar o desafio**: 
+**Como rodar o desafio**:
 
-Use o comando abaixo: 
+Use o comando abaixo:
+
 ```bash
-php helloWorld.php
+php helloworld.php
 ```
