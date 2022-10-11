@@ -1,20 +1,20 @@
 # Submissão de Exercicio
 
 **Exercicio:** 1 - Produto Simples
+**Nickname:** Michelsgab
 
-**Nickname:** 'Pride
+**Nível Técnico:** - Trainee -
 
-**Nível Técnico:** - Procrastinador Pleno -
+**Empresa:** - Magna Sistemas -
 
-**Empresa:** - Nenhuma -
+**Twitter**:
 
 **Dificuldade de Resolução:** - Baixa -
 
-**Comentários:** 👻
 
 **Como rodar o desafio**: 
 
 Use o comando abaixo: 
 ```bash
-perl produto-simples.pl arg1 arg2
+ts-node Produto.ts
 ```
