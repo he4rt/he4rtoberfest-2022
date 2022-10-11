@@ -2,7 +2,7 @@
 
 **Exercicio:** 0 - Hello World
 
-**Nickname:** vonmoraes
+**Nickname:** MoraesLívia
 
 **Nível Técnico:** - Estudante -
 
@@ -13,6 +13,6 @@
 **Como rodar o desafio**: 
 
 Use o comando abaixo: 
-```python
+```bash
 python3 Desafio0.py
 ```
