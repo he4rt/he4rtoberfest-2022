@@ -1,17 +1,22 @@
-# Desafio #0
+# Submissão de Exercicio
 
-**Nome:** Hello world
+**Exercicio:** 0 - Hello World
 
-**Descrição**: O desafio em questão será a porta de entrada para o nosso evento principal. Todos os membros deverão fazer um Hello World em qualquer uma das linguagens para continuar para pŕoxima fase.
+**Nickname:** bbwithpointers
 
-Nesse desafio espera-se que você siga o [modelo de desafio](../model.md) e aplique-o corretamente. 
+**Nível Técnico:** - Senior
 
-A mensagem não necessáriamente precisa ser Hello World, você pode ser criativo e fazer algo do seu gosto!
+**Empresa:** - -
 
-**Input/Args**: Não requerido
+**Twitter**: https://twitter.com/bbsemponteros (opcional)
 
-**Output**:
+**Dificuldade de Resolução:** - Baixa
 
-```
-Hello He4rtoberfest
+**Comentários:** 
+
+**Como rodar o desafio**: 
+
+Dentro do diretório do projeto, utilize o comando abaixo: 
+```bash
+go run main.go
 ```
