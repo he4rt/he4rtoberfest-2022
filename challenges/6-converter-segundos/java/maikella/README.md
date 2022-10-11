@@ -1,6 +1,6 @@
 ﻿# Submissão de Exercício
 
-**Exercicio:** 6 - Converter Segundos
+**Exercicio:** 6 - ConverterSegundos
 
 **Nickname:** maikella
 
