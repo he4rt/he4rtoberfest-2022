@@ -1,5 +1,3 @@
-package com.maikella.exer7;
-
 public enum Choice {
 
    PAPEL("papel") {
