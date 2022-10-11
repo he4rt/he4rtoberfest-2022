@@ -1,0 +1,7 @@
+System.argv()
+|> List.first()
+|> String.to_integer()
+|> :calendar.seconds_to_time()
+|> Time.from_erl!()
+|> Time.to_iso8601()
+|> IO.puts()
