@@ -9,6 +9,5 @@ import (
 func main() {
 	productOne, _ := strconv.Atoi(os.Args[1])
 	productTwo, _ := strconv.Atoi(os.Args[2])
-	PROD := productOne * productTwo
-	fmt.Println("produto:", PROD)
+	fmt.Println("Produto:", productOne*productTwo)
 }
