@@ -1,5 +1,6 @@
 (ns core)
 
+
 (def cobaias (atom {:coelhos 0 :ratos 0 :sapos 0 :total 0}))
 
 
@@ -39,12 +40,17 @@
          i 0]
 
     (atualiza-total! (Integer/parseInt (first entrada)) (second entrada))
-    ;; (prn @cobaias)
 
     (if (>= (inc i) numero-interacoes)
       :ok
       (recur numero-interacoes (clojure.string/split (read-line) #"\s") (inc i))))
+
   (def resultado (resposta!))
-  (println (str "Total: " (:total resultado) " cobaias.\n" "Total de coelhos: " (:coelhos resultado) "\n" "Total de ratos: " (:ratos resultado) "\n" "Total de sapos: " (:sapos resultado) "\n" "Percentual de coelhos: " (:percentagem-coelhos resultado) " %\n" "Percentual de ratos: " (:percentagem-ratos resultado) " %\n" "Percentual de sapos: " (:percentagem-sapos resultado) " %")))
 
-
+  (println (str "Total: " (:total resultado) " cobaias.\n" "Total de coelhos: "
+                (:coelhos resultado) "\n" "Total de ratos: " (:ratos resultado)
+                "\n" "Total de sapos: " (:sapos resultado) "\n" "Percentual de coelhos: "
+                (:percentagem-coelhos resultado) " %\n" "Percentual de ratos: "
+                (:percentagem-ratos resultado) " %\n" "Percentual de sapos: "
+                (:percentagem-sapos resultado) " %"))
+  :ok)
