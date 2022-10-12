@@ -1,6 +1,6 @@
 # Submissão de Exercicio
 
-**Exercicio:** 2 - Produto Simples
+**Exercicio:** 2 - Idade em dias
 
 **Nickname:** RudiJr
 
