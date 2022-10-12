@@ -14,5 +14,6 @@
 
 Use o comando abaixo: 
 ```bash
-java Produto.java
+javac Produto.java
+java Produto
 ```
