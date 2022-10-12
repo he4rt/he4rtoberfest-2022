@@ -2,17 +2,17 @@
 
 **Exercicio:** 0 - Hello World
 
-**Nickname:** bbwithpointers
+**Nickname:** danielhe4rt
 
-**Nível Técnico:** - Senior
+**Nível Técnico:** - Junior - Pleno - Senior
 
-**Empresa:** - -
+**Empresa:** - Sua Empresa -
 
-**Twitter**: https://twitter.com/bbsemponteros (opcional)
+**Twitter**: https://twitter.com/danielhe4rt (opcional)
 
 **Dificuldade de Resolução:** - Baixa
 
-**Comentários:** 
+**Comentários:** Esse desafio foi dificil por XPTO
 
 **Como rodar o desafio**: 
 
