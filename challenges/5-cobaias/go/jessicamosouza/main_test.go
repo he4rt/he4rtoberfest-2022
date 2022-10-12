@@ -41,7 +41,7 @@ func TestCalcResultado(t *testing.T) {
 	}
 
 	for _, test := range table {
-		got := calcResultado(test.input)
+		got := calcTotalCobaias(test.input)
 		if !reflect.DeepEqual(got, test.output) {
 			t.Errorf("Função retornou %#v, porém era para retornar %#v, dado os valores de %#v", got, test.output, test.input)
 		}

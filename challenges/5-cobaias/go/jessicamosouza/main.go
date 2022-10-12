@@ -1,8 +1,10 @@
 package main
 
 import (
+	"bufio"
 	"errors"
 	"fmt"
+	"os"
 	"strconv"
 	"strings"
 )
@@ -19,7 +21,7 @@ type resultado struct {
 	porcentagemRatos   float64
 }
 
-func calcResultado(inputs []string) resultado {
+func calcTotalCobaias(inputs []string) resultado {
 	r := resultado{}
 
 	for _, input := range inputs {
@@ -62,11 +64,33 @@ func calcPorcentagem(r resultado) resultado {
 	return r
 }
 
+func printResultado(r resultado) {
+	fmt.Printf("Total: %v cobaias\n", r.cobaias)
+	fmt.Printf("Total de coelhos:: %v\n", r.coelhos)
+	fmt.Printf("Total de ratos:: %v\n", r.ratos)
+	fmt.Printf("Total de sapos:: %v\n", r.sapos)
+	fmt.Printf("Percentual de coelhos: %.2f%%\n", r.porcentagemCoelhos)
+	fmt.Printf("Percentual de ratos: %.2f%%\n", r.porcentagemRatos)
+	fmt.Printf("Percentual de sapos: %.2f%%\n", r.porcentagemSapos)
+}
+
 func main() {
-	input := []string{"10", "10 C", "6 R", "15 S", "5 C", "14 R", "9 C", "6 R", "8 S", "5 C", "14 R"}
-	r := calcResultado(input)
-	fmt.Printf("Resultado: %#v\n", r)
+	var numTestes int
+	var line string
+	var teste []string
+	fmt.Print("Digite o número de testes realizados: ")
+	fmt.Scanln(&numTestes)
+
+	for i := 1; i <= numTestes; i++ {
+		fmt.Printf("Teste %v: \n", i)
+		scanner := bufio.NewScanner(os.Stdin)
+		scanner.Scan()
+		line = scanner.Text()
+		teste = append(teste, line)
+	}
+
+	r := calcTotalCobaias(teste)
 	p := calcPorcentagem(r)
-	fmt.Printf("Porcentagens: %#v\n", p)
+	printResultado(p)
 
 }
