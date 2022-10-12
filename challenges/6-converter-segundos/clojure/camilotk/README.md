@@ -14,13 +14,6 @@ Entre na pasta do desafio no seu terminal e rode o seguinte comando:
  ```
 Durante a execução o prompt irá perguntar quais são os números.
 
-## Testando a solução
-
-Para executar os testes rode:
-```bash
- $  clj -M:test
- ```
-
 ## Compilando a solução
 
 Você pode compilar a solução com:
