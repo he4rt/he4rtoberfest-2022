@@ -25,4 +25,5 @@ if(!arg){
   });
 } else {
   formatSecs(arg);
+  process.exit();
 }
