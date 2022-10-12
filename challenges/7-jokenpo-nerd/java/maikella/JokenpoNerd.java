@@ -93,10 +93,10 @@ public class JokenpoNerd {
          System.out.println("empate");
       }
 
-      if(player1.vence(player2)){
+      if(player1.champion(player2)){
          System.out.println("rajesh");
       }
-      if(player2.vence(player1)){
+      if(player2.champion(player1)){
          System.out.println("sheldon");
       }
    }
