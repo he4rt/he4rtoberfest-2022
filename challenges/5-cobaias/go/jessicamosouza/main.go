@@ -10,10 +10,13 @@ import (
 // var errInvalidUserInput = errors.New("input sem indicação do cobaia")
 
 type resultado struct {
-	cobaias int
-	sapos   int
-	coelhos int
-	ratos   int
+	cobaias            int
+	sapos              int
+	coelhos            int
+	ratos              int
+	porcentagemSapos   float64
+	porcentagemCoelhos float64
+	porcentagemRatos   float64
 }
 
 func calcResultado(inputs []string) resultado {
@@ -45,12 +48,25 @@ func calcResultado(inputs []string) resultado {
 			r.ratos += numCobaias
 		}
 	}
+
 	return r
 
 }
 
+func calcPorcentagem(r resultado) resultado {
+
+	r.porcentagemCoelhos = (float64(r.coelhos) * 100) / float64(r.cobaias)
+	r.porcentagemSapos = (float64(r.sapos) * 100) / float64(r.cobaias)
+	r.porcentagemRatos = (float64(r.ratos) * 100) / float64(r.cobaias)
+
+	return r
+}
+
 func main() {
-	input := []string{"10", "10 C", "6 R", "15 S", "5 C"}
-	fmt.Printf("Resultado: %#v\n", calcResultado(input))
+	input := []string{"10", "10 C", "6 R", "15 S", "5 C", "14 R", "9 C", "6 R", "8 S", "5 C", "14 R"}
+	r := calcResultado(input)
+	fmt.Printf("Resultado: %#v\n", r)
+	p := calcPorcentagem(r)
+	fmt.Printf("Porcentagens: %#v\n", p)
 
 }
