@@ -4,7 +4,7 @@
 
 **Nickname:** trustindestiny
 
-**Nível Técnico:** - Estudante
+**Nível Técnico:** Estudante
 
 **Empresa:** Nenhuma
 
