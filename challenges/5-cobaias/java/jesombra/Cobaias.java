@@ -28,7 +28,7 @@ public class Cobaias{
             }
         }
 
-        System.out.printf("Total: %d%n", totalCobaias);
+        System.out.printf("Total: %d cobaias%n", totalCobaias);
         System.out.printf("Total de Coelhos: %d%n", coelhos);
         System.out.printf("Total de Ratos: %d%n", ratos);
         System.out.printf("Total de Sapos: %d%n", sapos);
