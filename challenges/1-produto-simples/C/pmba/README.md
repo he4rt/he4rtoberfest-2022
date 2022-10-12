@@ -1,6 +1,6 @@
 # Submissão de Exercicio
 
-**Exercicio:** 0 - Hello World
+**Exercicio:** 1 - Produto Simples
 
 **Nickname:** pmba
 
@@ -16,8 +16,14 @@
 
 **Como rodar o desafio**:
 
-Dentro do diretório do projeto, utilize o comando abaixo:
+Dentro do diretório do projeto, utilize o comando abaixo para compilar o código:
 
 ```bash
-gcc hello-world.c -o hello-world.o && ./hello-world.o
+gcc produto-simples.c -o produto-simples.o
+```
+
+Uma vez compilado execute-o com o comando:
+
+```bash
+./produto-simples.o
 ```
