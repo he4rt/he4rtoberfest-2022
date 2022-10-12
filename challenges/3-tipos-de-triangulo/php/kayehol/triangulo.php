@@ -30,7 +30,7 @@ $sqMidLow = $sqB + $sqC;
 
 if (count($numsUnicos) == 1) {
     $ladoTriangulo = 'TRIANGULO EQUILATERO';
-} else if (count($numsUnicos)) {
+} else if (count($numsUnicos) == 2) {
     $ladoTriangulo = 'TRIANGULO ISOSCELES';
 }
 
