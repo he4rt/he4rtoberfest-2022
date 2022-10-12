@@ -1,6 +1,6 @@
 # Submissão de Exercicio
 
-**Exercicio:** 3 - FizzBuzz
+**Exercicio:** 4 - FizzBuzz
 
 **Nickname:** kayehol
 
