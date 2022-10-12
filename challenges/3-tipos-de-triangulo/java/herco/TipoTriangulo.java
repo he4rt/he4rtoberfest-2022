@@ -14,6 +14,9 @@ public class TipoTriangulo {
         ladosTriangulo.add(scanner.nextDouble());
         ladosTriangulo.add(scanner.nextDouble());
         scanner.close();
+        
+        System.out.println("Entrada: " + ladosTriangulo.toString().replace("[", "").replace("]", ""));
+
 
         System.out.println("");
 
@@ -26,8 +29,6 @@ public class TipoTriangulo {
         final int expoente = 2;
         final double somaRaizLadoBLadoC = Math.pow(ladoB, expoente) + Math.pow(ladoC, expoente);
         final double raizLadoA = Math.pow(ladoA, expoente);
-
-        System.out.println("Entrada: " + ladoA + " " + ladoB + " " + ladoC);
 
         if (ladoA >= (ladoB + ladoC)) { System.out.println("NAO FORMA TRIANGULO"); }
         else {
