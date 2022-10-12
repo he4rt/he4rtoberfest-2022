@@ -12,7 +12,7 @@
 
 **Dificuldade de Resolução:** - Baixa -
 
-**Comentários:** deve ter um jeito mais correto de fazer isso aqui
+**Comentários:** deve ter um jeito mais correto de fazer isso aqui.
 
 **Como rodar o desafio**:
 
