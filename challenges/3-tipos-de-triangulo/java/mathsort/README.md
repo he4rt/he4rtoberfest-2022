@@ -1,8 +1,13 @@
 # Submissão de Exercicio
 
 **Exercicio:** 3 - Tipos de Triangulos
+
 **Nickname:** mathsort
+
 **Nível Técnico:** - Estudante
+
+**Empresa:** - Nenhuma
+
 **Dificuldade de Resolução:** - Baixa
 
 **Como rodar o desafio**: 
@@ -30,3 +35,4 @@ java TiposDeTriangulos
 Invalid number of arguments!
 Usage: java TiposDeTriangulos X Y Z
 ```
+
