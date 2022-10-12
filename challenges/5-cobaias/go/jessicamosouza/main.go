@@ -9,8 +9,6 @@ import (
 	"strings"
 )
 
-// var errInvalidUserInput = errors.New("input sem indicação do cobaia")
-
 type resultado struct {
 	cobaias            int
 	sapos              int
@@ -21,46 +19,53 @@ type resultado struct {
 	porcentagemRatos   float64
 }
 
-func calcTotalCobaias(inputs []string) resultado {
+func getDadosTestes(numTestes int) (testes []string) {
+	for i := 1; i <= numTestes; i++ {
+		fmt.Printf("Teste %v: \n", i)
+		scanner := bufio.NewScanner(os.Stdin)
+		scanner.Scan()
+		line := scanner.Text()
+		testes = append(testes, line)
+	}
+	return
+}
+
+func calcTotalCobaias(testes []string) resultado {
 	r := resultado{}
 
-	for _, input := range inputs {
-		fields := strings.Fields(input)
+	for _, teste := range testes {
+		fields := strings.Fields(teste)
 		if len(fields) != 2 {
 			continue
 		}
 
-		tipoCobaia := fields[1]
-		if len(tipoCobaia) == 0 {
-			continue
-		}
+		tipoCobaia := strings.ToUpper(fields[1])
 
 		numCobaias, err := strconv.Atoi(fields[0])
 		if err != nil {
-			fmt.Println(errors.New("erro na conversão string para int no splitInput"))
+			fmt.Println(errors.New("erro na conversão string para int"))
 		}
-		r.cobaias += numCobaias
+		r.cobaias += numCobaias // calcula total de cobaias 
 
 		switch tipoCobaia {
 		case "S":
-			r.sapos += numCobaias
+			r.sapos += numCobaias // calcula total de sapos
 		case "C":
-			r.coelhos += numCobaias
+			r.coelhos += numCobaias // calcula total de coelhos
 		case "R":
-			r.ratos += numCobaias
+			r.ratos += numCobaias // calcula total de ratos
+		default:
+			continue
 		}
 	}
 
 	return r
-
 }
 
 func calcPorcentagem(r resultado) resultado {
-
 	r.porcentagemCoelhos = (float64(r.coelhos) * 100) / float64(r.cobaias)
 	r.porcentagemSapos = (float64(r.sapos) * 100) / float64(r.cobaias)
 	r.porcentagemRatos = (float64(r.ratos) * 100) / float64(r.cobaias)
-
 	return r
 }
 
@@ -76,21 +81,11 @@ func printResultado(r resultado) {
 
 func main() {
 	var numTestes int
-	var line string
-	var teste []string
 	fmt.Print("Digite o número de testes realizados: ")
 	fmt.Scanln(&numTestes)
 
-	for i := 1; i <= numTestes; i++ {
-		fmt.Printf("Teste %v: \n", i)
-		scanner := bufio.NewScanner(os.Stdin)
-		scanner.Scan()
-		line = scanner.Text()
-		teste = append(teste, line)
-	}
-
-	r := calcTotalCobaias(teste)
-	p := calcPorcentagem(r)
+	teste := getDadosTestes(numTestes)
+	t := calcTotalCobaias(teste)
+	p := calcPorcentagem(t)
 	printResultado(p)
-
 }
