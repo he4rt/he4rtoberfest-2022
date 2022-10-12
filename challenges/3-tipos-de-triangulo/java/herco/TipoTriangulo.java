@@ -25,9 +25,6 @@ public class TipoTriangulo {
         final double somaRaizLadoBLadoC = Math.pow(ladoB, expoente) + Math.pow(ladoC, expoente);
         final double raizLadoA = Math.pow(ladoA, expoente);
 
-        System.out.println(somaRaizLadoBLadoC);
-        System.out.println(raizLadoA);
-
         if (ladoA >= ladoB + ladoC) System.out.println("NAO FORMA TRIANGULO");
             else {
                 if (raizLadoA == somaRaizLadoBLadoC) System.out.println("TRIANGULO RETANGULO");
