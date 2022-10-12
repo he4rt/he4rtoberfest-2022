@@ -17,7 +17,6 @@ public class TipoTriangulo {
         
         System.out.println("Entrada: " + ladosTriangulo.toString().replace("[", "").replace("]", ""));
 
-
         System.out.println("");
 
         ladosTriangulo.sort(Comparator.reverseOrder());
