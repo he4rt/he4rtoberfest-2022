@@ -10,11 +10,11 @@
 
 **Twitter**: https://twitter.com/clerijr
 
-**Dificuldade de Resolução:** - Baixa -
+**Dificuldade de Resolução:** - Media -
 
 **Como rodar o desafio**: 
 
 Use o comando abaixo: 
 ```bash
-npx ts-node tiposDeTriangulo.ts
+npx ts-node tiposDeTriangulo.ts argv1 argv2 argv3
 ```
