@@ -18,5 +18,6 @@
 
 Use o comando abaixo: 
 ```bash
-java IdadeEmDias arg
+javac IdadeEmDias.java
+java IdadeEmDias.java arg
 ```
