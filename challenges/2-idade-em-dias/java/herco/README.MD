@@ -14,5 +14,6 @@
 
 Use o comando abaixo: 
 ```bash
-java IdadeDias.java
+javac IdadeDias.java
+java IdadeDias
 ```
