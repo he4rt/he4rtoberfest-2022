@@ -14,5 +14,6 @@
 
 Use o comando abaixo: 
 ```bash
-java TipoTriangulo.java
+javac TipoTriangulo.java
+java TipoTriangulo
 ```
