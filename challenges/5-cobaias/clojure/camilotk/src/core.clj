@@ -25,7 +25,8 @@
 
 (defn resposta!
   []
-  (assoc @cobaias :percentagem-coelhos (percentagem (:coelhos @cobaias) (:total @cobaias))
+  (assoc @cobaias
+         :percentagem-coelhos (percentagem (:coelhos @cobaias) (:total @cobaias))
          :percentagem-sapos (percentagem (:sapos @cobaias) (:total @cobaias))
          :percentagem-ratos (percentagem (:ratos @cobaias) (:total @cobaias))))
 
