@@ -12,7 +12,9 @@ public class Cobaia {
         List<Integer> listaQuantidadeCobaias = new ArrayList<>();
 
         System.out.println("Quantos testes foram realizados? ");
-        int totalCasosTeste = scanner.nextInt();
+        do {
+            totalCasosTeste = scanner.nextInt();
+        } while (totalCasosTeste <= 0);
         scanner.nextLine();
 
         for (int i = 1; i <= totalCasosTeste; i++) {
