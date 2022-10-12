@@ -18,13 +18,18 @@ public class Cobaia {
         scanner.nextLine();
 
         for (int i = 1; i <= totalCasosTeste; i++) {
+            int quantidadeCobaias = 0;
+            String[] testeSeparadoEmTotalCobaisETipoCobaia;
+
             System.out.print("Teste " + i + ": ");
-            String teste = scanner.nextLine().toUpperCase();
-
-            String[] testeSeparadoEmTotalCobaisETipoCobaia = teste.split(" ");
+            do {
+                String teste = scanner.nextLine().toUpperCase();
+                testeSeparadoEmTotalCobaisETipoCobaia = teste.split(" ");
+                quantidadeCobaias = Integer.parseInt(testeSeparadoEmTotalCobaisETipoCobaia[0]);
+            } while (quantidadeCobaias < 1 || quantidadeCobaias > 15);
+            
             listaTipoCobaias.add(testeSeparadoEmTotalCobaisETipoCobaia[1].charAt(0));
-            listaQuantidadeCobaias.add(Integer.valueOf(testeSeparadoEmTotalCobaisETipoCobaia[0]));
-
+            listaQuantidadeCobaias.add(quantidadeCobaias);
         }
         scanner.close();
 
