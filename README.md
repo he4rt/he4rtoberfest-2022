@@ -2,7 +2,7 @@
 <!-- Title -->
 
 <p align="center">
-  <h2 align="center">He4rtoberfest 2022 - Até 12/10</h2>
+  <h2 align="center">He4rtoberfest 2022 - ENCERRADO</h2>
 </p>
     
  <!-- ABOUT THE PROJECT -->
