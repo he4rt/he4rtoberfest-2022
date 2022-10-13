@@ -1,0 +1,6 @@
+source https://api.nuget.org/v3/index.json
+
+nuget Expecto >= 9.0
+nuget FSharp.Core >= 4.0
+nuget Microsoft.NET.Test.Sdk >= 16.0
+nuget YoloDev.Expecto.TestSdk
