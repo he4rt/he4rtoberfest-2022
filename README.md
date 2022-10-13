@@ -1,25 +1,27 @@
-
 <!-- Title -->
 
 <p align="center">
+  <img src=".github/finished.png" alt="Finished" />
   <h2 align="center">He4rtoberfest 2022 - ENCERRADO</h2>
 </p>
     
  <!-- ABOUT THE PROJECT -->
 
-
 ## Sobre o Projeto
+
 Sejam todos bem vindos a segunda edição do He4rtoberfest, evento da He4rt Developers para incentivar novos desenvolvedores a participar do Hacktoberfest pela DigitalOcean e aprender um pouco mais sobre a ideia do open source.
 
 A ideia da He4rt Developers sempre foi a inclusão dos mais iniciantes na área e iremos focar em trazer essa inclusão para o Hacktoberfest! Se liga:
 
 A ideia se baseia em pegar exercicios de faculdade, desde o mais simples até o mais complexo e fazer nas mais variadas linguagens e assim deixando uma biblioteca gigante de conhecimento para novos universitários mostrando a maior quantidade de jeitos possíveis de resolver o mesmo problema.
-## 
+
+##
+
 <!-- ROADMAP OF PROJECT -->
 
 ## Exercicios disponíveis
 
-Na lista abaixo estarão todos os exercicios que iremos aceitar nos nossos pull request. 
+Na lista abaixo estarão todos os exercicios que iremos aceitar nos nossos pull request.
 
 - [0 - Hello World (não irá contar)](./challenges/0-hello-world/readme.md)
 - [1 - Produto Simples](./challenges/1-produto-simples/readme.md)
@@ -32,7 +34,7 @@ Na lista abaixo estarão todos os exercicios que iremos aceitar nos nossos pull 
 - [8 - Contador de Nucleotídeos (EXTRA)](./challenges/8-contador-nucleotideos/readme.md)
 
 Caso você queira dar sugestões de desafios, contate algum moderador no [Discord da He4rt](https://discord.gg/he4rt).
-  
+
 <!-- CONTRIBUTING -->
 
 ## Como participar
@@ -83,16 +85,16 @@ git checkout main
 # 2. Checar se sua cópia local tem o link do original
 git remote -v
 # 3. Se não, adicione o link do original
-git remote add upstream git@github.com:he4rt/he4rtoberfest-2022.git 
-# ou 
-git remote add upstream https://github.com/he4rt/he4rtoberfest-2022.git 
+git remote add upstream git@github.com:he4rt/he4rtoberfest-2022.git
+# ou
+git remote add upstream https://github.com/he4rt/he4rtoberfest-2022.git
 # 4. Confirme se o link foi adicionado
 git remote -v
 # 5. Agora você pode fazer o fetch com o repo original, assumindo que o nome do link é 'upstream'
 git fetch upstream
 # 6. Fazer merge dos updates para sua branch main
-git merge upstream/main main 
-# 7. Realizar o push para seu fork com as novas mudanças 
+git merge upstream/main main
+# 7. Realizar o push para seu fork com as novas mudanças
 git push origin main
 ```
 
@@ -100,4 +102,3 @@ git push origin main
 
 - [**Git4Noobs**](https://github.com/danielhe4rt/git4noobs)
 - [**Aprendendo sobre Git e Github**](https://www.youtube.com/watch?v=_LNWekPPS9w)
-
