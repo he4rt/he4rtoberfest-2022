@@ -4,9 +4,9 @@
 
 **Nickname:** Neg0023
 
-**Nível Técnico:** - Estudante/Estagiário/Junior/Pleno/Senior -
+**Nível Técnico:** - Estudante/Estagiário/Junior -
 
-**Empresa:** - Sua Empresa / Nenhuma -
+**Empresa:** - Nenhuma -
 
 **Twitter**: https://twitter.com/Neg1U
 
@@ -19,5 +19,5 @@
 Use o comando abaixo: 
 ```bash
 javac FizzBuzz.java 
-java FizzBuzz.java arg
+java FizzBuzz arg
 ```
