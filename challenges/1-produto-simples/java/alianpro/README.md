@@ -18,6 +18,6 @@
 
 Use o comando abaixo:
 ```bash
-javac ProdutoSimples
+javac ProdutoSimples.java
 java ProdutoSimples
 ```
