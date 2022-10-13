@@ -20,7 +20,7 @@ func ConvSegundos(s int) string {
 
 func main() {
 	segundos, err := strconv.Atoi(os.Args[1])
-	if err != nil || segundos <= 0 {
+	if err != nil || segundos < 0 {
 		fmt.Println("Erro no input.")
 		os.Exit(1)
 	}
