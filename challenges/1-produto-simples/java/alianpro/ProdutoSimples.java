@@ -12,7 +12,8 @@ public class ProdutoSimples {
         System.out.print("Digite outro numero: " );
         int num2 = scanner.nextInt();
 
-        System.out.println("produto: " + num1*num2 );
+        int PROD = num1*num2;
+        System.out.println("produto: " + PROD );
 
     }
 
