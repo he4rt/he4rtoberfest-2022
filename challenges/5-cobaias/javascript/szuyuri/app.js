@@ -23,11 +23,12 @@ if ((experiments.length % 2) !== 0 || experiments.length !== (totalCases * 2)) {
 experiments.forEach((firstLatterOfAnimalName, index) => {
     if (((index + 1) % 2) === 0) {
         let totalExperimentsWithAnimal = parseInt(experiments[index - 1])
-        experimentCounter.totalExperiments += totalExperimentsWithAnimal
-        
         let animalType = experimentsTypes[firstLatterOfAnimalName]
 
-        experimentCounter[animalType] += totalExperimentsWithAnimal
+        if (animalType) {
+            experimentCounter.totalExperiments += totalExperimentsWithAnimal
+            experimentCounter[animalType] += totalExperimentsWithAnimal
+        }
     }
 })
 
