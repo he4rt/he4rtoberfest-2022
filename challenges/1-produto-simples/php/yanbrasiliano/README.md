@@ -12,7 +12,7 @@
 
 **Dificuldade de Resolução:** - Baixa -
 
-**Comentários: Simplicity is everything :D
+**Comentários**: Simplicity is everything :D
 
 **Como rodar o desafio**:
 
