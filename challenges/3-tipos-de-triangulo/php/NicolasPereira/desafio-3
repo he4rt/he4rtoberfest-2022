@@ -1,0 +1,50 @@
+<?php
+
+if (count($argv) != 4) {
+    echo 'Informe três valores.';
+    exit;
+}
+
+$args = array_slice($argv, 1);
+rsort($args);
+$ladoA = (float) $args[0];
+$ladoB = (float) $args[1];
+$ladoC = (float) $args[2];
+$resultados = [];
+
+if ($ladoA >= ($ladoB + $ladoC)) {
+    echo "NÃO FORMA TRIÂNGULO" . PHP_EOL;
+    return;
+}
+
+$quadradoDeA = pow($ladoA, 2);
+
+$quadradoDeB = pow($ladoB, 2);
+
+$quadradoDeC = pow($ladoC, 2);
+
+if ($quadradoDeA == ($quadradoDeB + $quadradoDeC)) {
+    $resultados[] = 'TRIANGULO RETANGULO';
+}
+
+if ($quadradoDeA > ($quadradoDeB + $quadradoDeC)) {
+    $resultados[] ='TRIANGULO OBTUSANGULO';
+}
+
+if ($quadradoDeA < ($quadradoDeB + $quadradoDeC)) {
+    $resultados[] ='TRIANGULO ACUTANGULO';
+}
+
+if (($ladoA == $ladoB || $ladoB == $ladoC) && 
+    (($ladoA == $ladoB && $ladoB == $ladoC && $ladoC == $ladoA) == false
+    )) {
+    $resultados[] = "TRIANGULO ISOSCELES";
+}
+
+if($ladoA == $ladoB && $ladoB == $ladoC) {
+    $resultados[] = "TRIANGULO EQUILATERO";
+}
+
+foreach($resultados as $resultado) {
+    echo sprintf('%s', $resultado) . PHP_EOL;
+}
