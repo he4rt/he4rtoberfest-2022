@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".paket", ".paket", "{97A66593-0986-4ED8-BE44-9F6CECE2BFBC}"
+	ProjectSection(SolutionItems) = preProject
+		paket.dependencies = paket.dependencies
+	EndProjectSection
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "IdadeDias", "IdadeDias\IdadeDias.fsproj", "{0C8E5106-C398-4877-A8EA-F47314EACBD2}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "IdadeDias.Tests", "IdadeDias.Tests\IdadeDias.Tests.fsproj", "{EF048D8A-365F-4D85-8594-C156DC0A8565}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0C8E5106-C398-4877-A8EA-F47314EACBD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C8E5106-C398-4877-A8EA-F47314EACBD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C8E5106-C398-4877-A8EA-F47314EACBD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C8E5106-C398-4877-A8EA-F47314EACBD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF048D8A-365F-4D85-8594-C156DC0A8565}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF048D8A-365F-4D85-8594-C156DC0A8565}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF048D8A-365F-4D85-8594-C156DC0A8565}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF048D8A-365F-4D85-8594-C156DC0A8565}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
